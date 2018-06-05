@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on younglinuxer</title>
+    <link>https://younglinuxer.github.io/hugo/tags/</link>
+    <description>Recent content in Tags on younglinuxer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 20 Mar 2016 12:13:19 +0800</lastBuildDate>
+    
+	<atom:link href="https://younglinuxer.github.io/hugo/tags/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bar</title>
+      <link>https://younglinuxer.github.io/hugo/tags/bar/</link>
+      <pubDate>Sun, 20 Mar 2016 12:13:19 +0800</pubDate>
+      
+      <guid>https://younglinuxer.github.io/hugo/tags/bar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Foo</title>
+      <link>https://younglinuxer.github.io/hugo/tags/foo/</link>
+      <pubDate>Sun, 20 Mar 2016 12:13:19 +0800</pubDate>
+      
+      <guid>https://younglinuxer.github.io/hugo/tags/foo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://younglinuxer.github.io/hugo/tags/test/</link>
+      <pubDate>Sat, 20 Feb 2016 15:34:05 +0800</pubDate>
+      
+      <guid>https://younglinuxer.github.io/hugo/tags/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
