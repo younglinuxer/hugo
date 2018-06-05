@@ -2,39 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on younglinuxer</title>
-    <link>https://younglinuxer.github.io/hugo/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 20 Mar 2016 12:13:19 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jun 2018 12:12:23 +0800</lastBuildDate>
     
-	<atom:link href="https://younglinuxer.github.io/hugo/tags/feed.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bar</title>
-      <link>https://younglinuxer.github.io/hugo/tags/bar/</link>
-      <pubDate>Sun, 20 Mar 2016 12:13:19 +0800</pubDate>
+      <title>Db</title>
+      <link>/tags/db/</link>
+      <pubDate>Tue, 05 Jun 2018 12:12:23 +0800</pubDate>
       
-      <guid>https://younglinuxer.github.io/hugo/tags/bar/</guid>
+      <guid>/tags/db/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Foo</title>
-      <link>https://younglinuxer.github.io/hugo/tags/foo/</link>
-      <pubDate>Sun, 20 Mar 2016 12:13:19 +0800</pubDate>
+      <title>Docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
       
-      <guid>https://younglinuxer.github.io/hugo/tags/foo/</guid>
+      <guid>/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Test</title>
-      <link>https://younglinuxer.github.io/hugo/tags/test/</link>
-      <pubDate>Sat, 20 Feb 2016 15:34:05 +0800</pubDate>
+      <title>Linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
       
-      <guid>https://younglinuxer.github.io/hugo/tags/test/</guid>
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>/tags/network/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>/tags/network/</guid>
       <description></description>
     </item>
     

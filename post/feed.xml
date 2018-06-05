@@ -2,33 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on younglinuxer</title>
-    <link>https://younglinuxer.github.io/hugo/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 20 Mar 2016 12:13:19 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jun 2018 12:30:05 +0800</lastBuildDate>
     
-	<atom:link href="https://younglinuxer.github.io/hugo/post/feed.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/feed.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>first</title>
-      <link>https://younglinuxer.github.io/hugo/post/first/</link>
-      <pubDate>Sun, 20 Mar 2016 12:13:19 +0800</pubDate>
-      
-      <guid>https://younglinuxer.github.io/hugo/post/first/</guid>
-      <description>主题概况 Balalalalala&amp;hellip; Balalalalala&amp;hellip; 安装指南 aaaaaaa bbbbbbb ccccccc 安装 bold 启用 print(&#39;hello world!&#39;) 更新 Blockquotes are very handy in email to emulate reply text. This line is part of the same quote. 配置指南 Tables Are Cool col 3 is right-aligned $1600 col 2 is centered $12 zebra stripes are neat $1 属性 说明 First ordered list item</description>
-    </item>
     
     <item>
-      <title>hello hugo</title>
-      <link>https://younglinuxer.github.io/hugo/post/hello-hugo/</link>
-      <pubDate>Sat, 20 Feb 2016 15:34:05 +0800</pubDate>
+      <title>rout</title>
+      <link>/post/route/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
       
-      <guid>https://younglinuxer.github.io/hugo/post/hello-hugo/</guid>
-      <description>Hello Hugo Balalala&amp;hellip;
-Balalala&amp;hellip;
-Balalala&amp;hellip;</description>
+      <guid>/post/route/</guid>
+      <description>路由器配置</description>
     </item>
     
   </channel>

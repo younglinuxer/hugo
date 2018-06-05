@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on younglinuxer</title>
+    <link>/doc/</link>
+    <description>Recent content in Docs on younglinuxer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 05 Jun 2018 12:30:05 +0800</lastBuildDate>
+    
+	<atom:link href="/doc/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>k8s 配置</title>
+      <link>/doc/k8s/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>/doc/k8s/</guid>
+      <description>k8s 规范</description>
+    </item>
+    
+  </channel>
+</rss>
