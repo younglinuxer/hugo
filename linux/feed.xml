@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linuxes on younglinuxer</title>
-    <link>/linux/</link>
+    <link>https://younglinuxer.github.io/hugo/linux/</link>
     <description>Recent content in Linuxes on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 05 Jun 2018 12:30:05 +0800</lastBuildDate>
     
-	<atom:link href="/linux/feed.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://younglinuxer.github.io/hugo/linux/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>linux Mint </title>
-      <link>/linux/linuxmit/</link>
+      <link>https://younglinuxer.github.io/hugo/linux/linuxmit/</link>
       <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
       
-      <guid>/linux/linuxmit/</guid>
+      <guid>https://younglinuxer.github.io/hugo/linux/linuxmit/</guid>
       <description>####linux Mint 安装优化记录</description>
     </item>
     
