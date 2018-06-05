@@ -12,3 +12,14 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/younglinuxer/hugo.git
 git push -u origin master
+
+
+################hugo 操作
+
+添加一个页面
+hugo new about.md
+
+生成public目录 （将这个目录提交到 git pages 上就可以访问自己的博了）
+hugo --theme=min_night --baseUrl="https://younglinuxer.github.io/hugo/"
+
+hugo --theme=hugo-pacman-theme --baseUrl="https://younglinuxer.github.io/hugo/"
