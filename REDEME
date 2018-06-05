@@ -1,0 +1,14 @@
+hugo --theme=min_night --baseUrl="https://younglinuxer.github.io/hugo/"
+
+提交 到github的分支
+
+cp -r themes/min_night/exampleSite/ .
+
+
+git提交步骤
+echo "# hugo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/younglinuxer/hugo.git
+git push -u origin master
