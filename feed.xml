@@ -48,6 +48,15 @@
     </item>
     
     <item>
+      <title>关于 blog</title>
+      <link>https://younglinuxer.github.io/hugo/about/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>https://younglinuxer.github.io/hugo/about/</guid>
+      <description>个人博客 运维 生活 工作 爱情 博客说明 1.记录工作中遇到的部分问题 2.一部分学习笔记{linux,数据库,网络,虚拟化,渗透测试,开发,mindo</description>
+    </item>
+    
+    <item>
       <title>路由器</title>
       <link>https://younglinuxer.github.io/hugo/network/route/</link>
       <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
