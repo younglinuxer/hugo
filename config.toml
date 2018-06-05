@@ -7,6 +7,10 @@ Theme = "hugo-pacman-theme"
 pygmentsStyle = "default"
 pygmentsUseClasses = true
 
+###添加评论
+DuoShuoShortName = 'younglinuxer'
+DisqusShortName = "https://https-younglinuxer-github-io-hugo"
+
 [Author]
   Name = "younglinxer"
 
