@@ -5,10 +5,10 @@
   <title>linux Mint  - younglinuxer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="####linux Mint 安装优化记录">
+  <meta name="description" content="linux Mint 安装优化记录 描述 最近为了戒掉游戏 决定放弃windows的坑 入了linux的坑 对比了几个不同的发行版本 最后决定使用 linux Mint 记录一下系统的安装和">
   
   <meta itemprop="name" content="linux Mint  - younglinuxer">
-  <meta itemprop="description" content="####linux Mint 安装优化记录">
+  <meta itemprop="description" content="linux Mint 安装优化记录 描述 最近为了戒掉游戏 决定放弃windows的坑 入了linux的坑 对比了几个不同的发行版本 最后决定使用 linux Mint 记录一下系统的安装和">
   <meta itemprop="image" content="https://younglinuxer.github.io/hugo/img/author.jpg">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@coderzh" />
@@ -25,7 +25,6 @@
   <link rel="stylesheet" href="https://younglinuxer.github.io/hugo/font/hack/css/hack.min.css">
   <link rel="stylesheet" href="https://younglinuxer.github.io/hugo/css/style.css">
 </head>
-
 <body>
   <header>
     <div>
@@ -81,10 +80,108 @@
     
 		<div class="toc-article">
 			<strong class="toc-title">文章目录</strong>
-      
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#linux-mint-安装优化记录">linux Mint 安装优化记录</a></li>
+<li><a href="#描述">描述</a></li>
+<li><a href="#系统安装">系统安装</a></li>
+<li><a href="#软件安装">软件安装</a></li>
+<li><a href="#翻墙-问题处理">翻墙＆问题处理</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
 		</div>
     
-    <p>####linux Mint 安装优化记录</p>
+    
+
+<h4 id="linux-mint-安装优化记录">linux Mint 安装优化记录</h4>
+
+<h4 id="描述">描述</h4>
+
+<pre><code>最近为了戒掉游戏 决定放弃windows的坑 入了linux的坑 对比了几个不同的发行版本 最后决定使用 linux Mint 
+记录一下系统的安装和一部分软件优化的使用
+</code></pre>
+
+<h4 id="系统安装">系统安装</h4>
+
+<pre><code>1.官方下载最新版　https://www.linuxmint.com/download.php (cinnamon,MATE,xfce,KDE 分别对应不同的桌面　我们这里选择安装ｃinnamon)
+2.下载　“软碟通”　并将镜像刻录到U盘　重启电脑并通过ｕ盘启动　就直接能进入系统安装界面按提示一步步安装就行了
+3.关于笔记本硬盘分区　SSD硬盘安装系统文件系统默认 ext4 另外一块机械硬盘使用btrfs 
+      找到自己需要挂载的硬盘　　fdisk -l  (找到自己对应的硬盘为　/dev/sda)
+      格式化硬盘　mkfs.btrfs /dev/sda　-f (-f  force　)
+      挂载硬盘　mount /dev/sda /younglinuxer/ 
+      添加到fstab  
+      ##### by young 2018-06-06
+      /dev/sda /younglinxer               btrfs    defaults 0       0
+
+</code></pre>
+
+<h4 id="软件安装">软件安装</h4>
+
+<pre><code>1.音乐软件apt源带有　spotify的安装包,但是无奈vpn服务器的流量有限　果断猪厂的音乐软件　‘网易云音乐’　支持deepin和ubuntu 这里选择ubuntu　
+    ****网易云音乐自带的启动链接有问题 这里给出一个解决方式　×××右键新建一个启动器　启动命令填写　‘sudo netease-cloud-music’
+2.浏览器　默认有火狐浏览器　可以安装chromium（chrome）//自带的apt源就有
+3.输入法　选择安装中文会自带的有fcitx的输入法　但有点小问题　这里选择单独选择安装搜狗输入法　
+4.IDE工具　这里使用idea　官网下载最新版解压使用就行　下载商业版可以有更多的支持　下方提供 idea注册码
+5.数据库连接工具　mysql-workbench　apt install 就行
+6.服务器连接工具　目前有putty 但是个人习惯使用xhell 并不习惯　仍然在继续探索ing
+</code></pre>
+
+<p><a href="https://music.163.com/#/download">猪厂音乐软件</a>
+<a href="https://pinyin.sogou.com/linux/?r=pinyin">搜狗输入法下载</a>
+<a href="http://idea.lanyus.com/">idea 注册码</a></p>
+
+<h4 id="翻墙-问题处理">翻墙＆问题处理</h4>
+
+<p>sublimt 中文无法输入问题</p>
+
+<pre><code>git clone https://github.com/lyfeyaj/sublime-text-imfix.git  /data/src
+cd /data/src/sublime-text-imfix 
+./sublime-imfix 
+// 执行上面脚本后会在/opt/sublime_text/ 生成相关依赖　更改/usr/bin/subl 
+// 如果还无法输入中文　请添加下面内容到　/etc/profile.d/sublime.sh
+ export LD_PRELOAD=/opt/sublime_text/libsublime-imfix.so
+</code></pre>
+
+<p>翻墙采用shadowsocks + kcp</p>
+
+<pre><code>shadowsocks kcp 安装教程具体请网上自行搜索
+</code></pre>
+
+<pre><code>//kcp配置
+wget https://github.com/xtaci/kcptun/releases/download/v20180316/kcptun-linux-amd64-20180316.tar.gz /data/src
+cd /data/src &amp;&amp; tar xf kcptun-linux-amd64-20180316.tar.gz 
+mv kcp_client /usr/local/sbin 
+//添加　开启启动程序　kcp_client -c /etc/shadowsocks/kcp.json　
+</code></pre>
+
+<pre><code>//shadowsocks配置
+wget https://github.com/shadowsocks/shadowsocks-go/releases/download/1.1.5/shadowsocks-local-linux64-1.1.5.gz /data/src
+cd /data/src &amp;&amp; gunzip shadowsocks-local-linux64-1.1.5.gz
+mv ./shadowsocks-local-linux64-1.1.5 /usr/local/sbin/ss-client
+//添加开启启动程序　
+</code></pre>
+
+<pre><code>//pac 自动代理分流
+// apt install python-pip gcc 
+pip install genpac
+cd /etc/shadowsocks 
+genpac --proxy=&quot;SOCKS5 127.0.0.1:1080&quot; --gfwlist-proxy=&quot;SOCKS5 127.0.0.1:1080&quot; -o autoproxy.pac --gfwlist-url=&quot;https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt&quot;
+
+// 生成文件　/etc/shadowsocks/autoproxy.pac 
+
+修改网络设置　设置网络自动代理　输入下面地址
+file:///etc/shadowsocks/autoproxy.pac
+
+</code></pre>
 
 	</div>
   <footer class="article-footer clearfix">
@@ -120,7 +217,21 @@
   
 
 
+<div id="disqus_thread"></div>
+<script>
 
+    
+
+    
+
+    (function() { 
+        var d = document, s = d.createElement('script');
+        s.src = 'https://https-younglinuxer-github-io-hugo.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 
     <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
