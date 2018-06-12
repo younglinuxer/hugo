@@ -12,6 +12,15 @@
     
     
     <item>
+      <title> hugo 安装小结</title>
+      <link>https://younglinuxer.github.io/hugo/linux/hugo/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>https://younglinuxer.github.io/hugo/linux/hugo/</guid>
+      <description>hugo 博客搭建说明 准备工作 1.配置hugo 运行环境 2.github 新建一个Repositories 配置github pages （提供一个域名 并托管blog代码） 3.注册</description>
+    </item>
+    
+    <item>
       <title>linux Mint </title>
       <link>https://younglinuxer.github.io/hugo/linux/linuxmit/</link>
       <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>

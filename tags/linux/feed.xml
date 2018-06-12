@@ -6,10 +6,28 @@
     <description>Recent content in Linux on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 05 Jun 2018 12:30:05 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 Jun 2018 17:19:08 +0800</lastBuildDate>
     
 	<atom:link href="https://younglinuxer.github.io/hugo/tags/linux/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nmap</title>
+      <link>https://younglinuxer.github.io/hugo/hacker/nmap/</link>
+      <pubDate>Tue, 12 Jun 2018 17:19:08 +0800</pubDate>
+      
+      <guid>https://younglinuxer.github.io/hugo/hacker/nmap/</guid>
+      <description>nmap 用例</description>
+    </item>
+    
+    <item>
+      <title> hugo 安装小结</title>
+      <link>https://younglinuxer.github.io/hugo/linux/hugo/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>https://younglinuxer.github.io/hugo/linux/hugo/</guid>
+      <description>hugo 博客搭建说明 准备工作 1.配置hugo 运行环境 2.github 新建一个Repositories 配置github pages （提供一个域名 并托管blog代码） 3.注册</description>
+    </item>
     
     <item>
       <title>linux Mint </title>
@@ -18,15 +36,6 @@
       
       <guid>https://younglinuxer.github.io/hugo/linux/linuxmit/</guid>
       <description>linux Mint 安装优化记录 描述 最近为了戒掉游戏 决定放弃windows的坑 入了linux的坑 对比了几个不同的发行版本 最后决定使用 linux Mint 记录一下系统的安装和</description>
-    </item>
-    
-    <item>
-      <title>nmap 用例</title>
-      <link>https://younglinuxer.github.io/hugo/hacker/nmap/</link>
-      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
-      
-      <guid>https://younglinuxer.github.io/hugo/hacker/nmap/</guid>
-      <description>nmap 用例</description>
     </item>
     
   </channel>

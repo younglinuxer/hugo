@@ -2,17 +2,17 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>Nmap - younglinuxer</title>
+  <title> hugo 安装小结 - younglinuxer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="nmap 用例">
+  <meta name="description" content="hugo 博客搭建说明 准备工作 1.配置hugo 运行环境 2.github 新建一个Repositories 配置github pages （提供一个域名 并托管blog代码） 3.注册">
   
-  <meta itemprop="name" content="Nmap - younglinuxer">
-  <meta itemprop="description" content="nmap 用例">
+  <meta itemprop="name" content=" hugo 安装小结 - younglinuxer">
+  <meta itemprop="description" content="hugo 博客搭建说明 准备工作 1.配置hugo 运行环境 2.github 新建一个Repositories 配置github pages （提供一个域名 并托管blog代码） 3.注册">
   <meta itemprop="image" content="https://younglinuxer.github.io/hugo/img/author.jpg">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@coderzh" />
-  <meta name="twitter:title" content="Nmap - younglinuxer" />
+  <meta name="twitter:title" content=" hugo 安装小结 - younglinuxer" />
   
   <meta name="twitter:description" content="">
   
@@ -64,15 +64,15 @@
 	<article itemprop="articleBody">
     <header class="article-info clearfix">
   <h1 itemprop="name">
-      <a href="https://younglinuxer.github.io/hugo/hacker/nmap/" title="Nmap" itemprop="url">Nmap</a>
+      <a href="https://younglinuxer.github.io/hugo/linux/hugo/" title=" hugo 安装小结" itemprop="url"> hugo 安装小结</a>
   </h1>
   <p class="article-author">By
     
-      <a href="https://younglinuxer.github.io/hugo/" title="younglinuxer">younglinuxer</a>
+      <a href="http://blog.youngblog.cc" title="younglinuxer">younglinuxer</a>
     
   </p>
   <p class="article-time">
-    <time datetime="2018-06-12 17:19:08 &#43;0800 CST" itemprop="datePublished">12068年18月08日</time>
+    <time datetime="2018-06-05 12:30:05 &#43;0800 CST" itemprop="datePublished">5068年18月05日</time>
   </p>
 </header>
 
@@ -90,7 +90,15 @@
 <ul>
 <li>
 <ul>
-<li><a href="#nmap-用例">nmap 用例</a></li>
+<li><a href="#hugo-博客搭建说明">hugo 博客搭建说明</a></li>
+<li><a href="#准备工作">准备工作</a></li>
+<li><a href="#安装-hugo">安装　hugo</a></li>
+<li><a href="#部署自己的blog">部署自己的blog</a></li>
+<li><a href="#增加评论系统-网易云音乐链接">增加评论系统＆＆网易云音乐链接</a>
+<ul>
+<li><a href="#增加评论系统">增加评论系统</a></li>
+<li><a href="#添加网易云外链">添加网易云外链</a></li>
+</ul></li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -101,7 +109,167 @@
     
     
 
-<h5 id="nmap-用例">nmap 用例</h5>
+<h5 id="hugo-博客搭建说明">hugo 博客搭建说明</h5>
+
+<h5 id="准备工作">准备工作</h5>
+
+<pre><code>1.配置hugo 运行环境　
+2.github 新建一个Repositories　配置github pages （提供一个域名　并托管blog代码）
+3.注册 disqus （增加评论系统）　//需要翻墙
+4.注册七牛云　　(免费云存储　cdn加速)
+5.网易云音乐生成播放器外链　(增加一个音乐播放器)
+6.选择一个自己觉得好看的皮肤
+</code></pre>
+
+<p><a href="https://github.com/gohugoio/hugo/releases">hugo 下载地址</a></p>
+
+<p><a href="https://disqus.com/profile/signup/">disqus评论系统注册</a></p>
+
+<p><a href="https://www.qiniu.com/">七牛云注册</a></p>
+
+<p><a href="https://themes.gohugo.io/">hugo 模板</a></p>
+
+<p><a href="https://jingyan.baidu.com/article/d7130635dcdf6813fdf475c7.html">网易云音乐生成外链教程</a></p>
+
+<p><a href="http://www.gohugo.org/">hugo安装官方文档</a></p>
+
+<h5 id="安装-hugo">安装　hugo</h5>
+
+<pre><code>1.点击上述链接下载最新版本的安装包
+2.解压得到一个执行文件'hugo' 
+3.将hugo移动到对应 path 路径下面　linux(/usr/local/sbin) win(c:/windows/system32)
+</code></pre>
+
+<p>//常用命令</p>
+
+<p><strong><em>注意　hugo新建页面生成文件用md　编辑采用markdown语法　hugo会读取md文件生成对应的html文件 执行hugo命令时需要在生成站点的目录下执行</em></strong></p>
+
+<pre><code># 生成站点
+hugo new site /data/app/hugo
+# 创建一个abut页面
+hugo new about.md
+# 创建一个目录和页面　
+hugo new linux/linuxMint.md
+
+#本地运行hugo 进行调试
+hugo server --theme={yourtheme} --buildDrafts
+// 简写　hugo server -t {younrteme} -D 
+// 更多参数　参考　hugo --help
+
+
+
+# 安装皮肤
+# 创建　themes 目录
+mkdir /data/app/hugo/themes
+cd data/app/hugo/themes 
+git clone https://github.com/coderzh/hugo-pacman-theme.git
+
+# 替换配置文件　如果启动有问题　就执行下面命令
+cp -r themes/｛youthemes｝/exampleSite/ 　．
+#如果报错找不到对应皮肤　请检查themes下面对应的目录名字是否正确
+</code></pre>
+
+<p>//目录说明
+<img src="http://p9ym53fcj.sabkt.gdipper.com/hugo_tree" alt="avatar" /></p>
+
+<h5 id="部署自己的blog">部署自己的blog</h5>
+
+<p><a href="https://www.jianshu.com/p/e68fba58f75c">github pages 配置可以参考这篇文章</a></p>
+
+<pre><code>#　生成public目录（blog的静态页面） 指定皮肤和url (默认localhost)
+hugo --theme=hugo-pacman-theme --baseUrl=&quot;https://younglinuxer.github.io/hugo/&quot; 
+# 提交到　github
+$ cd public
+$ git init
+$ git remote add origin https://github.com/｛your Repositories｝
+$ git add -A
+$ git commit -m &quot;first commit&quot;
+$ git push -u origin master
+
+访问你github pages 主页就可以得到你的blog 了 
+
+</code></pre>
+
+<h5 id="增加评论系统-网易云音乐链接">增加评论系统＆＆网易云音乐链接</h5>
+
+<h6 id="增加评论系统">增加评论系统</h6>
+
+<p>注册　disqus　成功后选择　i want to install disqus on my site</p>
+
+<p>按提示操作注册后会生成你注册帐号对应的代码块　</p>
+
+<pre><code class="language-html">&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-younglinuxer-github-io-hugo.disqus.com/embed.js'; //这里对应你帐号生成的js 
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+                            
+</code></pre>
+
+<p>找到安装皮肤中对应disqus 代码　
+/layout/partials/comment.html</p>
+
+<p><code>这里使用模板映射配置文件到对应的代码　但是配置文件没有这个选项　添加尝试了一下仍然不行　这里直接把disqus给出来的代码替换掉就行了</code></p>
+
+<pre><code class="language-html">{{ if .Site.Params.DisqusShortName }}
+&lt;section class=&quot;comment&quot;&gt;
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;script&gt;
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+var disqus_config = function () {
+this.page.url = {{ .Permalink }};
+this.page.identifier = {{ .Permalink }};
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//{{ .Site.Params.DisqusShortName }}.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot; rel=&quot;nofollow&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+{{ end }}
+
+</code></pre>
+
+<h6 id="添加网易云外链">添加网易云外链</h6>
+
+<p><a href="https://jingyan.baidu.com/article/d7130635dcdf6813fdf475c7.html">网易云音乐生成外链教程</a></p>
+
+<pre><code class="language-html">&lt;!--按上述链接生成网易云音乐的外链　比如我把时间标签部分替换为了　网易云音乐播放器的外链接--&gt;
+
+&lt;!--cat /layout/widgets/archive.html--&gt;
+
+{{ if not (eq (len .Site.Pages) 0) }}
+  &lt;div class=&quot;archiveslist&quot;&gt;
+    &lt;p class=&quot;asidetitle&quot;&gt;{{ .Site.Params.Strings.Archive }}&lt;/p&gt;
+    &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=110 src=&quot;//music.163.com/outchain/player?type=0&amp;id=644606581&amp;auto=0&amp;height=90&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+{{ end }}
+
+
+</code></pre>
 
 	</div>
   <footer class="article-footer clearfix">
@@ -128,7 +296,7 @@
 
 
   <div class="article-share" id="share">
-    <div data-url="https://younglinuxer.github.io/hugo/hacker/nmap/" data-title="Nmap" data-tsina="1816308191" class="share clearfix">
+    <div data-url="https://younglinuxer.github.io/hugo/linux/hugo/" data-title=" hugo 安装小结" data-tsina="1816308191" class="share clearfix">
     </div>
   </div>
 </footer>
