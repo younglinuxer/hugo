@@ -13,6 +13,9 @@ git commit -m "first commit"
 git remote add origin https://github.com/younglinuxer/hugo.git
 git push -u origin master
 
+强制推送　覆盖
+git push -u origin ＋master
+
 
 ################hugo 操作
 
@@ -23,3 +26,5 @@ hugo new about.md
 hugo --theme=min_night --baseUrl="https://younglinuxer.github.io/hugo/"
 
 hugo --theme=hugo-pacman-theme --baseUrl="https://younglinuxer.github.io/hugo/"
+
+hugo server　--theme=hugo-pacman-theme -D

@@ -1,11 +1,14 @@
----
-title: "Hugo"
-date: 2018-06-08T22:31:38+08:00
-draft: true
-categories: ["linux"]
-tags: ["linux"]
-toc: true
----
++++
+date = "2018-06-05T12:30:05+08:00"
+title = " hugo 安装小结"
+categories = ["linux"]
+tags = ["linux"]
+toc = true
+author = "younglinuxer"
+comments = true
+author_homepage =  "http://blog.youngblog.cc"
+
++++
 
 ##### hugo 博客搭建说明
 
@@ -19,9 +22,13 @@ toc: true
 6.选择一个自己觉得好看的皮肤
 ```
 [hugo 下载地址](https://github.com/gohugoio/hugo/releases)
+
 [disqus评论系统注册](https://disqus.com/profile/signup/)
+
 [七牛云注册](https://www.qiniu.com/)
+
 [hugo 模板](https://themes.gohugo.io/)
+
 [网易云音乐生成外链教程](https://jingyan.baidu.com/article/d7130635dcdf6813fdf475c7.html)
 
 [hugo安装官方文档](http://www.gohugo.org/)
@@ -65,7 +72,7 @@ cp -r themes/｛youthemes｝/exampleSite/ 　．
 ![avatar](http://p9ym53fcj.sabkt.gdipper.com/hugo_tree)
 
 ##### 部署自己的blog 
-[github pages 可以参考这篇文章](https://www.jianshu.com/p/e68fba58f75c)
+[github pages 配置可以参考这篇文章](https://www.jianshu.com/p/e68fba58f75c)
 
 ```
 #　生成public目录（blog的静态页面） 指定皮肤和url (默认localhost)
@@ -84,7 +91,8 @@ $ git push -u origin master
 
 ##### 增加评论系统＆＆网易云音乐链接
 
-/注册　disqus　成功后选择　i want to install disqus on my site 
+###### 增加评论系统
+注册　disqus　成功后选择　i want to install disqus on my site 
 
 按提示操作注册后会生成你注册帐号对应的代码块　
 
@@ -142,5 +150,22 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {{ end }}
+
+```
+
+###### 添加网易云外链
+[网易云音乐生成外链教程](https://jingyan.baidu.com/article/d7130635dcdf6813fdf475c7.html)
+```html
+<!--按上述链接生成网易云音乐的外链　比如我把时间标签部分替换为了　网易云音乐播放器的外链接-->
+
+<!--cat /layout/widgets/archive.html-->
+
+{{ if not (eq (len .Site.Pages) 0) }}
+  <div class="archiveslist">
+    <p class="asidetitle">{{ .Site.Params.Strings.Archive }}</p>
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="//music.163.com/outchain/player?type=0&id=644606581&auto=0&height=90"></iframe>
+  </div>
+{{ end }}
+
 
 ```
