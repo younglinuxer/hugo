@@ -6,10 +6,28 @@
     <description>Recent content on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 12 Jun 2018 17:19:08 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 15 Jun 2018 10:05:23 +0800</lastBuildDate>
     
 	<atom:link href="https://younglinuxer.github.io/hugo/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker Compose</title>
+      <link>https://younglinuxer.github.io/hugo/doc/docker-compose/</link>
+      <pubDate>Fri, 15 Jun 2018 10:05:23 +0800</pubDate>
+      
+      <guid>https://younglinuxer.github.io/hugo/doc/docker-compose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker Compose</title>
+      <link>https://younglinuxer.github.io/hugo/linux/docker-compose/</link>
+      <pubDate>Fri, 15 Jun 2018 10:03:33 +0800</pubDate>
+      
+      <guid>https://younglinuxer.github.io/hugo/linux/docker-compose/</guid>
+      <description>docker-compose 说明 介绍 python 编写的docker编排工具 相较于k8s Swarm 等轻量的多 只需要按照自己的需求编写成对应的docker-compose 文件就行了 一般按照</description>
+    </item>
     
     <item>
       <title>Nmap</title>

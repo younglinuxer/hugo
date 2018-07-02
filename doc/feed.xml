@@ -6,10 +6,19 @@
     <description>Recent content in Docs on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 05 Jun 2018 12:30:05 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 15 Jun 2018 10:05:23 +0800</lastBuildDate>
     
 	<atom:link href="https://younglinuxer.github.io/hugo/doc/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker Compose</title>
+      <link>https://younglinuxer.github.io/hugo/doc/docker-compose/</link>
+      <pubDate>Fri, 15 Jun 2018 10:05:23 +0800</pubDate>
+      
+      <guid>https://younglinuxer.github.io/hugo/doc/docker-compose/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>k8s 配置</title>
