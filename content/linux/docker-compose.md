@@ -60,3 +60,97 @@ Commands:
   version            Show the Docker-Compose version information　
 
 ```
+
+
+docker-compose　编排文件示例
+
+编排服务对应的
+
+```yaml
+version: "3" # 版本２　版本３　对应docker－compose的版本不一样需要注意 
+
+services:＃对应编排的服务顶格写
+  prometheus:
+    build:
+      context: ./prometheus
+    links:
+      - "alertmanager:alertmanager"
+      - "blackbox_exporter:blackbox_exporter"
+    ports:
+      - "9090:9090"
+    networks:
+      - prometheus
+      
+
+  blackbox_exporter:
+    build: ./blackbox_exporter
+    image: blackbox_exporter
+    networks:
+      - prometheus
+  alertmanager:
+    build: ./alertmanager
+    image: alertmanager
+    depends_on:
+      - sms_alert
+    links:
+      - "sms_alert:sms_alert"
+    volumes:
+      - ./data/alertmanager:/alertmanager
+    ports:
+      - "9093:9093"
+    networks:
+      - prometheus
+      
+  sms_alert:
+    build: ./sms_alert/app
+    image: sms_alert
+    ports:
+      - "9092:9092"
+    networks:
+      - prometheus
+
+  mysqld_exporter_test:
+    build: ./mysqld_exporter
+    image: mysqld_exporter_test
+    environment:
+      - DATA_SOURCE_NAME=root:123456@(172.16.30.118:3306)/
+    ports:
+      - "9104:9104"
+    networks:
+      - prometheus
+
+  mysqld_exporter_uat:
+    build: ./mysqld_exporter
+    image: mysqld_exporter_uat
+    environment:
+      - DATA_SOURCE_NAME=gateway:gatewaypre@(172.16.30.129:3306)/
+    networks:
+      - prometheus
+
+  consul_exporter_uat:
+    build: ./consul_exporter
+    image: consul_exporter_uat
+    command:
+      - "-consul.server=http://172.16.30.129:8500"
+    ports:
+      - "9107:9107"
+    networks:
+      - prometheus
+      
+  consul_exporter_test:
+    build: ./consul_exporter
+    image: consul_exporter_test
+    command:
+      - "-consul.server=http://172.16.30.123:8500"
+    networks:
+      - prometheus
+    
+
+
+
+volumes:
+  prometheus:
+
+networks:
+  prometheus:
+```
