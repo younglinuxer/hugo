@@ -2,20 +2,20 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>Linux - younglinuxer</title>
+  <title>Yum - younglinuxer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="Linux">
+  <meta name="description" content="yum 安装软件的一些技巧 添加源 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo 查询软件版本 yum list docker-ce --showduplicates | sort -r yum install docker-ce-&lt;VERSION STRING&gt; #安装指定版本 安装开发软件组 yum -y group install &quot;Development Tools&quot; provides #查找包含文件的软件包 如报错缺少">
   
-  <meta itemprop="name" content="Linux - younglinuxer">
-  <meta itemprop="description" content="Linux">
+  <meta itemprop="name" content="Yum - younglinuxer">
+  <meta itemprop="description" content="yum 安装软件的一些技巧 添加源 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo 查询软件版本 yum list docker-ce --showduplicates | sort -r yum install docker-ce-&lt;VERSION STRING&gt; #安装指定版本 安装开发软件组 yum -y group install &quot;Development Tools&quot; provides #查找包含文件的软件包 如报错缺少">
   <meta itemprop="image" content="http://blog.youngblog.ccimg/author.jpg">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@coderzh" />
-  <meta name="twitter:title" content="Linux - younglinuxer" />
+  <meta name="twitter:title" content="Yum - younglinuxer" />
   
   <meta name="twitter:description" content="">
-  <link rel="alternate" href="http://blog.youngblog.ccfeed.xml" title="younglinuxer" type="application/rss+xml"/>
+  
   <link rel="shortcut icon" href="http://blog.youngblog.ccimg/favicon.ico"/>
   <link rel="apple-touch-icon" href="http://blog.youngblog.ccapple-touch-icon.png" />
   <link rel="apple-touch-icon-precomposed" href="http://blog.youngblog.ccapple-touch-icon.png" />
@@ -60,69 +60,158 @@
 
   </header>
   <div id="container">
-    <div id="main">
-      
-      <h2 id="2018-07">2018-07</h2>
-      
-      <section class="post" itemscope itemprop="blogPost">
-    <a href="http://blog.youngblog.cc/linux/yum/" title="Yum" itemprop="url">
-    <h1 itemprop="name">Yum</h1>
-    <p itemprop="description">yum 安装软件的一些技巧 添加源 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo 查询软件版本 yum list docker-ce --showduplicates | sort -r yum install docker-ce-&lt;VERSION STRING&gt; #安装指定版本 安装开发软件组 yum -y group install &quot;Development Tools&quot; provides #查找包含文件的软件包 如报错缺少</p>
+    <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody">
+    <header class="article-info clearfix">
+  <h1 itemprop="name">
+      <a href="http://blog.youngblog.cc/linux/yum/" title="Yum" itemprop="url">Yum</a>
+  </h1>
+  <p class="article-author">By
+    
+      <a href="https://younglinuxer.github.io/hugo/" title="younglinuxer">younglinuxer</a>
+    
+  </p>
+  <p class="article-time">
     <time datetime="2018-07-16 22:22:25 &#43;0800 CST" itemprop="datePublished">16078年18月25日</time>
-  </a>
-</section>
+  </p>
+</header>
 
-      
-      <section class="post" itemscope itemprop="blogPost">
-    <a href="http://blog.youngblog.cc/linux/iptables/" title="Iptables" itemprop="url">
-    <h1 itemprop="name">Iptables</h1>
-    <p itemprop="description">iptables-examples firewall的常用用法 #####firewalld 配置文件 /etc/firewalld/zones/public.xml 默认的zone 其他的配置文件 rpm -qc firewalld firewall --list-all #查看规则 firewall-cmd --permanent --direct --add-rule ipv4 filter INPUT 1 -s 192.168.1.0/24 -p tcp --dport=22 -j ACCEPT #允许192.168.</p>
-    <time datetime="2018-07-16 21:16:29 &#43;0800 CST" itemprop="datePublished">16078年18月29日</time>
-  </a>
-</section>
+	<div class="article-content">
+    
+		<div class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#yum-安装软件的一些技巧">yum 安装软件的一些技巧</a>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#添加源">添加源</a></li>
+<li><a href="#查询软件版本">查询软件版本</a></li>
+<li><a href="#安装开发软件组">安装开发软件组</a></li>
+<li><a href="#provides">provides</a></li>
+<li><a href="#显示软件包的依赖信息">显示软件包的依赖信息</a></li>
+<li><a href="#yum-search">yum search</a></li>
+<li><a href="#更新软件包">更新软件包　</a></li>
+<li><a href="#完全卸载yum包">完全卸载yum包</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><a href="#其他插件">其他插件</a></li>
+</ul>
+</nav>
+		</div>
+    
+    
 
-      
-      
-      <h2 id="2018-06">2018-06</h2>
-      
-      <section class="post" itemscope itemprop="blogPost">
-    <a href="http://blog.youngblog.cc/linux/docker-compose/" title="Docker Compose" itemprop="url">
-    <h1 itemprop="name">Docker Compose</h1>
-    <p itemprop="description">docker-compose 说明 介绍 python 编写的docker编排工具 相较于k8s Swarm 等轻量的多 只需要按照自己的需求编写成对应的docker-compose 文件就行了 一般按照</p>
-    <time datetime="2018-06-15 10:03:33 &#43;0800 CST" itemprop="datePublished">15068年18月33日</time>
-  </a>
-</section>
+<h2 id="yum-安装软件的一些技巧">yum 安装软件的一些技巧</h2>
 
-      
-      <section class="post" itemscope itemprop="blogPost">
-    <a href="http://blog.youngblog.cc/hacker/nmap/" title="Nmap" itemprop="url">
-    <h1 itemprop="name">Nmap</h1>
-    <p itemprop="description">nmap 用例 nc 长连接监听 ＇ nc -l 80 -k</p>
-    <time datetime="2018-06-12 17:19:08 &#43;0800 CST" itemprop="datePublished">12068年18月08日</time>
-  </a>
-</section>
+<h5 id="添加源">添加源</h5>
 
-      
-      <section class="post" itemscope itemprop="blogPost">
-    <a href="http://blog.youngblog.cc/linux/linuxmit/" title="linux Mint " itemprop="url">
-    <h1 itemprop="name">linux Mint </h1>
-    <p itemprop="description">linux Mint 安装优化记录 描述 最近为了戒掉游戏 决定放弃windows的坑 入了linux的坑 对比了几个不同的发行版本 最后决定使用 linux Mint 记录一下系统的安装和</p>
-    <time datetime="2018-06-05 12:30:05 &#43;0800 CST" itemprop="datePublished">5068年18月05日</time>
-  </a>
-</section>
+<pre><code class="language-bash">yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+</code></pre>
 
-      
-      <section class="post" itemscope itemprop="blogPost">
-    <a href="http://blog.youngblog.cc/linux/hugo/" title=" hugo 安装小结" itemprop="url">
-    <h1 itemprop="name"> hugo 安装小结</h1>
-    <p itemprop="description">hugo 博客搭建说明 准备工作 1.配置hugo 运行环境 2.github 新建一个Repositories 配置github pages （提供一个域名 并托管blog代码） 3.注册</p>
-    <time datetime="2018-06-05 12:30:05 &#43;0800 CST" itemprop="datePublished">5068年18月05日</time>
-  </a>
-</section>
+<h5 id="查询软件版本">查询软件版本</h5>
 
-      
-      
+<pre><code class="language-bash">yum list docker-ce --showduplicates | sort -r
+yum install docker-ce-&lt;VERSION STRING&gt; #安装指定版本
+</code></pre>
+
+<h5 id="安装开发软件组">安装开发软件组</h5>
+
+<pre><code class="language-bash">yum -y group install &quot;Development Tools&quot;
+</code></pre>
+
+<h5 id="provides">provides</h5>
+
+<pre><code class="language-bash">#查找包含文件的软件包 如报错缺少文件　又不知道缺少啥软件的时候可以通过yum 搜索
+yum provides libneon.so 
+</code></pre>
+
+<h5 id="显示软件包的依赖信息">显示软件包的依赖信息</h5>
+
+<pre><code class="language-bash">yum deplist nginx  
+</code></pre>
+
+<h5 id="yum-search">yum search</h5>
+
+<pre><code class="language-bash">yum search jdk
+yum list *jdk* #yum list 支持正则
+</code></pre>
+
+<h5 id="更新软件包">更新软件包　</h5>
+
+<pre><code class="language-bash">yum update -y #更新软件
+yum makecache fast #更新索引加快搜索速度
+yum clean all  #清理缓存　删除　/var/cache/yum/
+</code></pre>
+
+<p>t</p>
+
+<h5 id="完全卸载yum包">完全卸载yum包</h5>
+
+<p>rpm -qa|grep yum|xargs rpm -e&ndash;nodeps</p>
+
+<h1 id="其他插件">其他插件</h1>
+
+<p>yum-plugin-downloadonly</p>
+
+	</div>
+  <footer class="article-footer clearfix">
+  
+
+<div class="article-tags">
+  <span></span>
+  
+  <a target="_blank" href="http://blog.youngblog.cctags/linux">linux</a>
+  
+</div>
+
+
+
+
+
+<div class="article-categories">
+  <span></span>
+  
+  <a target="_blank" class="article-category-link" href="http://blog.youngblog.cccategories/linux">linux</a>
+  
+</div>
+
+
+
+  <div class="article-share" id="share">
+    <div data-url="http://blog.youngblog.cc/linux/yum/" data-title="Yum" data-tsina="1816308191" class="share clearfix">
     </div>
+  </div>
+</footer>
+
+	</article>
+  
+
+
+<div id="disqus_thread"></div>
+<script>
+
+    
+
+    
+
+    (function() { 
+        var d = document, s = d.createElement('script');
+        s.src = 'https://https-younglinuxer-github-io-hugo.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
     <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
@@ -199,10 +288,6 @@
 
 
   
-<div class="rsspart">
-  <a rel="nofollow" href="http://blog.youngblog.ccfeed.xml" type="application/rss+xml" target="_blank">RSS 订阅</a>
-</div>
-
 
 </aside>
 </div>
