@@ -3,157 +3,157 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/linux/yum/</loc>
+    <loc>http://blog.youngblog.cc/linux/yum/</loc>
     <lastmod>2018-07-16T22:22:25+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/linux/iptables/</loc>
+    <loc>http://blog.youngblog.cc/linux/iptables/</loc>
     <lastmod>2018-07-16T21:16:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/linux/docker-compose/</loc>
+    <loc>http://blog.youngblog.cc/linux/docker-compose/</loc>
     <lastmod>2018-06-15T10:03:33+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/hacker/nmap/</loc>
+    <loc>http://blog.youngblog.cc/hacker/nmap/</loc>
     <lastmod>2018-06-12T17:19:08+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/linux/hugo/</loc>
+    <loc>http://blog.youngblog.cc/linux/hugo/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/doc/k8s/</loc>
+    <loc>http://blog.youngblog.cc/doc/k8s/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/linux/linuxmit/</loc>
+    <loc>http://blog.youngblog.cc/linux/linuxmit/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/post/route/</loc>
+    <loc>http://blog.youngblog.cc/post/route/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/about/</loc>
+    <loc>http://blog.youngblog.cc/about/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/network/route/</loc>
+    <loc>http://blog.youngblog.cc/network/route/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/db/mysql_index/</loc>
+    <loc>http://blog.youngblog.cc/db/mysql_index/</loc>
     <lastmod>2018-06-05T12:12:23+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/categories/</loc>
+    <loc>http://blog.youngblog.cc/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/tags/db/</loc>
-    <lastmod>2018-06-05T12:12:23+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://younglinuxer.github.io/hugo/categories/db/</loc>
+    <loc>http://blog.youngblog.cc/categories/db/</loc>
     <lastmod>2018-06-05T12:12:23+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/db/</loc>
+    <loc>http://blog.youngblog.cc/tags/db/</loc>
     <lastmod>2018-06-05T12:12:23+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/categories/doc/</loc>
+    <loc>http://blog.youngblog.cc/db/</loc>
+    <lastmod>2018-06-05T12:12:23+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.youngblog.cc/categories/doc/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/tags/docker/</loc>
+    <loc>http://blog.youngblog.cc/tags/docker/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/doc/</loc>
+    <loc>http://blog.youngblog.cc/doc/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/hacker/</loc>
+    <loc>http://blog.youngblog.cc/hacker/</loc>
     <lastmod>2018-06-12T17:19:08+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/tags/linux/</loc>
+    <loc>http://blog.youngblog.cc/categories/linux/</loc>
     <lastmod>2018-07-16T22:22:25+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/categories/linux/</loc>
+    <loc>http://blog.youngblog.cc/tags/linux/</loc>
     <lastmod>2018-07-16T22:22:25+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/linux/</loc>
+    <loc>http://blog.youngblog.cc/linux/</loc>
     <lastmod>2018-07-16T22:22:25+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/tags/network/</loc>
+    <loc>http://blog.youngblog.cc/categories/network/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/categories/network/</loc>
+    <loc>http://blog.youngblog.cc/tags/network/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/network/</loc>
+    <loc>http://blog.youngblog.cc/network/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/post/</loc>
+    <loc>http://blog.youngblog.cc/post/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/tags/</loc>
+    <loc>http://blog.youngblog.cc/tags/</loc>
     <lastmod>2018-06-05T12:12:23+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://younglinuxer.github.io/hugo/feed.xml</loc>
+    <loc>http://blog.youngblog.cc/feed.xml</loc>
     <lastmod>2018-07-16T22:22:25+08:00</lastmod>
     <priority>0</priority>
   </url>
