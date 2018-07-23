@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Network on younglinuxer</title>
-    <link>http://blog.youngblog.cc/categories/network/</link>
+    <link>https://younglinuxer.github.io/hugo/categories/network/</link>
     <description>Recent content in Network on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 05 Jun 2018 12:30:05 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.youngblog.cc/categories/network/feed.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://younglinuxer.github.io/hugo/categories/network/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>rout</title>
-      <link>http://blog.youngblog.cc/post/route/</link>
+      <link>https://younglinuxer.github.io/hugo/post/route/</link>
       <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
       
-      <guid>http://blog.youngblog.cc/post/route/</guid>
+      <guid>https://younglinuxer.github.io/hugo/post/route/</guid>
       <description>路由器配置</description>
     </item>
     
     <item>
       <title>路由器</title>
-      <link>http://blog.youngblog.cc/network/route/</link>
+      <link>https://younglinuxer.github.io/hugo/network/route/</link>
       <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
       
-      <guid>http://blog.youngblog.cc/network/route/</guid>
+      <guid>https://younglinuxer.github.io/hugo/network/route/</guid>
       <description>路由器</description>
     </item>
     

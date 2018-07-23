@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hackers on younglinuxer</title>
-    <link>http://blog.youngblog.cc/hacker/</link>
+    <link>https://younglinuxer.github.io/hugo/hacker/</link>
     <description>Recent content in Hackers on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 12 Jun 2018 17:19:08 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.youngblog.cc/hacker/feed.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://younglinuxer.github.io/hugo/hacker/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nmap</title>
-      <link>http://blog.youngblog.cc/hacker/nmap/</link>
+      <link>https://younglinuxer.github.io/hugo/hacker/nmap/</link>
       <pubDate>Tue, 12 Jun 2018 17:19:08 +0800</pubDate>
       
-      <guid>http://blog.youngblog.cc/hacker/nmap/</guid>
+      <guid>https://younglinuxer.github.io/hugo/hacker/nmap/</guid>
       <description>nmap 用例 nc 长连接监听 ＇ nc -l 80 -k</description>
     </item>
     
