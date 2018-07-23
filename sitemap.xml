@@ -63,13 +63,13 @@
   </url>
   
   <url>
-    <loc>http://blog.youngblog.cc/categories/db/</loc>
+    <loc>http://blog.youngblog.cc/tags/db/</loc>
     <lastmod>2018-06-05T12:12:23+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.youngblog.cc/tags/db/</loc>
+    <loc>http://blog.youngblog.cc/categories/db/</loc>
     <lastmod>2018-06-05T12:12:23+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -105,13 +105,13 @@
   </url>
   
   <url>
-    <loc>http://blog.youngblog.cc/categories/linux/</loc>
+    <loc>http://blog.youngblog.cc/tags/linux/</loc>
     <lastmod>2018-07-16T22:22:25+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.youngblog.cc/tags/linux/</loc>
+    <loc>http://blog.youngblog.cc/categories/linux/</loc>
     <lastmod>2018-07-16T22:22:25+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -123,13 +123,13 @@
   </url>
   
   <url>
-    <loc>http://blog.youngblog.cc/categories/network/</loc>
+    <loc>http://blog.youngblog.cc/tags/network/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.youngblog.cc/tags/network/</loc>
+    <loc>http://blog.youngblog.cc/categories/network/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
     <priority>0</priority>
   </url>
