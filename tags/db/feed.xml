@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Db on younglinuxer</title>
-    <link>http://blog.youngblog.cc/tags/db/</link>
+    <link>https://blog.youngblog.cc/tags/db/</link>
     <description>Recent content in Db on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 05 Jun 2018 12:12:23 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.youngblog.cc/tags/db/feed.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.youngblog.cc/tags/db/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>mysql 索引</title>
-      <link>http://blog.youngblog.cc/db/mysql_index/</link>
+      <link>https://blog.youngblog.cc/db/mysql_index/</link>
       <pubDate>Tue, 05 Jun 2018 12:12:23 +0800</pubDate>
       
-      <guid>http://blog.youngblog.cc/db/mysql_index/</guid>
+      <guid>https://blog.youngblog.cc/db/mysql_index/</guid>
       <description>####mysql index 索引</description>
     </item>
     

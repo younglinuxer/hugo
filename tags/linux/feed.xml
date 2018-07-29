@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on younglinuxer</title>
-    <link>http://blog.youngblog.cc/tags/linux/</link>
+    <link>https://blog.youngblog.cc/tags/linux/</link>
     <description>Recent content in Linux on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 16 Jul 2018 22:22:25 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.youngblog.cc/tags/linux/feed.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.youngblog.cc/tags/linux/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Yum</title>
-      <link>http://blog.youngblog.cc/linux/yum/</link>
+      <link>https://blog.youngblog.cc/linux/yum/</link>
       <pubDate>Mon, 16 Jul 2018 22:22:25 +0800</pubDate>
       
-      <guid>http://blog.youngblog.cc/linux/yum/</guid>
+      <guid>https://blog.youngblog.cc/linux/yum/</guid>
       <description>yum 安装软件的一些技巧 添加源 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo 查询软件版本 yum list docker-ce --showduplicates | sort -r yum install docker-ce-&amp;lt;VERSION STRING&amp;gt; #安装指定版本 安装开发软件组 yum -y group install &amp;quot;Development Tools&amp;quot; provides #查找包含文件的软件包 如报错缺少</description>
     </item>
     
     <item>
       <title>Iptables</title>
-      <link>http://blog.youngblog.cc/linux/iptables/</link>
+      <link>https://blog.youngblog.cc/linux/iptables/</link>
       <pubDate>Mon, 16 Jul 2018 21:16:29 +0800</pubDate>
       
-      <guid>http://blog.youngblog.cc/linux/iptables/</guid>
+      <guid>https://blog.youngblog.cc/linux/iptables/</guid>
       <description>iptables-examples firewall的常用用法 #####firewalld 配置文件 /etc/firewalld/zones/public.xml 默认的zone 其他的配置文件 rpm -qc firewalld firewall --list-all #查看规则 firewall-cmd --permanent --direct --add-rule ipv4 filter INPUT 1 -s 192.168.1.0/24 -p tcp --dport=22 -j ACCEPT #允许192.168.</description>
     </item>
     
     <item>
       <title>Docker Compose</title>
-      <link>http://blog.youngblog.cc/linux/docker-compose/</link>
+      <link>https://blog.youngblog.cc/linux/docker-compose/</link>
       <pubDate>Fri, 15 Jun 2018 10:03:33 +0800</pubDate>
       
-      <guid>http://blog.youngblog.cc/linux/docker-compose/</guid>
+      <guid>https://blog.youngblog.cc/linux/docker-compose/</guid>
       <description>docker-compose 说明 介绍 python 编写的docker编排工具 相较于k8s Swarm 等轻量的多 只需要按照自己的需求编写成对应的docker-compose 文件就行了 一般按照</description>
     </item>
     
     <item>
       <title>Nmap</title>
-      <link>http://blog.youngblog.cc/hacker/nmap/</link>
+      <link>https://blog.youngblog.cc/hacker/nmap/</link>
       <pubDate>Tue, 12 Jun 2018 17:19:08 +0800</pubDate>
       
-      <guid>http://blog.youngblog.cc/hacker/nmap/</guid>
+      <guid>https://blog.youngblog.cc/hacker/nmap/</guid>
       <description>nmap 用例 nc 长连接监听 ＇ nc -l 80 -k</description>
     </item>
     
     <item>
       <title> hugo 安装小结</title>
-      <link>http://blog.youngblog.cc/linux/hugo/</link>
+      <link>https://blog.youngblog.cc/linux/hugo/</link>
       <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
       
-      <guid>http://blog.youngblog.cc/linux/hugo/</guid>
+      <guid>https://blog.youngblog.cc/linux/hugo/</guid>
       <description>hugo 博客搭建说明 准备工作 1.配置hugo 运行环境 2.github 新建一个Repositories 配置github pages （提供一个域名 并托管blog代码） 3.注册</description>
     </item>
     
     <item>
       <title>linux Mint </title>
-      <link>http://blog.youngblog.cc/linux/linuxmit/</link>
+      <link>https://blog.youngblog.cc/linux/linuxmit/</link>
       <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
       
-      <guid>http://blog.youngblog.cc/linux/linuxmit/</guid>
+      <guid>https://blog.youngblog.cc/linux/linuxmit/</guid>
       <description>linux Mint 安装优化记录 描述 最近为了戒掉游戏 决定放弃windows的坑 入了linux的坑 对比了几个不同的发行版本 最后决定使用 linux Mint 记录一下系统的安装和</description>
     </item>
     
