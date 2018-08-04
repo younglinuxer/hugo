@@ -6,10 +6,64 @@
     <description>Recent content in Dbs on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 30 Jul 2018 16:26:13 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 05 Aug 2018 00:34:12 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.youngblog.cc/db/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mysql3</title>
+      <link>https://blog.youngblog.cc/db/mysql3/</link>
+      <pubDate>Sun, 05 Aug 2018 00:34:12 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/mysql3/</guid>
+      <description>mysql第三部分 索引 变量设定 事务 存储过程 触发器 sql分析 内存优化</description>
+    </item>
+    
+    <item>
+      <title>Mysql2</title>
+      <link>https://blog.youngblog.cc/db/mysql2/</link>
+      <pubDate>Sun, 05 Aug 2018 00:17:30 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/mysql2/</guid>
+      <description>mysql第二部分 增删改查 用户与权限管理 连表查询 常用内置函数 mysql 5.6 5.7 8.0</description>
+    </item>
+    
+    <item>
+      <title>Postgresql</title>
+      <link>https://blog.youngblog.cc/db/postgresql/</link>
+      <pubDate>Sat, 04 Aug 2018 23:15:00 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oracle</title>
+      <link>https://blog.youngblog.cc/db/oracle/</link>
+      <pubDate>Sat, 04 Aug 2018 23:14:12 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/oracle/</guid>
+      <description>oracle rac 集群安装 dg 同步</description>
+    </item>
+    
+    <item>
+      <title>Mysql(1)</title>
+      <link>https://blog.youngblog.cc/db/mysql1/</link>
+      <pubDate>Sat, 04 Aug 2018 23:14:05 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/mysql1/</guid>
+      <description>mysql 常用 安装 参数优化 数据目录设置 磁盘选择+文件系统选择 日志优化 字符集设置 备份与恢复 物理备份 逻辑备份 数据迁移验证</description>
+    </item>
+    
+    <item>
+      <title>Mongodb</title>
+      <link>https://blog.youngblog.cc/db/mongodb/</link>
+      <pubDate>Sat, 04 Aug 2018 23:13:26 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/mongodb/</guid>
+      <description>mongodb docker 运行mongodb 常用命令</description>
+    </item>
     
     <item>
       <title>Redis</title>
@@ -27,15 +81,6 @@
       
       <guid>https://blog.youngblog.cc/db/rabbitmq/</guid>
       <description>rabbitmq 单机安装 有 EPEL 源的情况（需要安装的内容较多，宽带要能跟上）： sudo yum install erlang RabbitMQ 官网提供 Erlang 安装包： 下载地址：http://www.rabbitmq.c</description>
-    </item>
-    
-    <item>
-      <title>mysql 索引</title>
-      <link>https://blog.youngblog.cc/db/mysql_index/</link>
-      <pubDate>Tue, 05 Jun 2018 12:12:23 +0800</pubDate>
-      
-      <guid>https://blog.youngblog.cc/db/mysql_index/</guid>
-      <description>####mysql index 索引</description>
     </item>
     
   </channel>

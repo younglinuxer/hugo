@@ -6,19 +6,10 @@
     <description>Recent content in Db on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 30 Jul 2018 16:26:13 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jul 2018 11:18:25 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.youngblog.cc/tags/db/feed.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Redis</title>
-      <link>https://blog.youngblog.cc/db/redis/</link>
-      <pubDate>Mon, 30 Jul 2018 16:26:13 +0800</pubDate>
-      
-      <guid>https://blog.youngblog.cc/db/redis/</guid>
-      <description>redis 安装及配置 # centos 下安装 redis yum install redis -y #基础配置 #允许后台启动 daemonize yes # 默认daemonize no #配置监听 bind ｛ip,or 0.0.0.0｝ # 默认bind</description>
-    </item>
     
     <item>
       <title>Rabbitmq</title>
@@ -27,15 +18,6 @@
       
       <guid>https://blog.youngblog.cc/db/rabbitmq/</guid>
       <description>rabbitmq 单机安装 有 EPEL 源的情况（需要安装的内容较多，宽带要能跟上）： sudo yum install erlang RabbitMQ 官网提供 Erlang 安装包： 下载地址：http://www.rabbitmq.c</description>
-    </item>
-    
-    <item>
-      <title>mysql 索引</title>
-      <link>https://blog.youngblog.cc/db/mysql_index/</link>
-      <pubDate>Tue, 05 Jun 2018 12:12:23 +0800</pubDate>
-      
-      <guid>https://blog.youngblog.cc/db/mysql_index/</guid>
-      <description>####mysql index 索引</description>
     </item>
     
   </channel>

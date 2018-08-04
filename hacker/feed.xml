@@ -6,10 +6,37 @@
     <description>Recent content in Hackers on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 12 Jun 2018 17:19:08 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 05 Aug 2018 01:02:52 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.youngblog.cc/hacker/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>抓包改包</title>
+      <link>https://blog.youngblog.cc/hacker/%E6%8A%93%E5%8C%85%E6%94%B9%E5%8C%85/</link>
+      <pubDate>Sun, 05 Aug 2018 01:02:52 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/hacker/%E6%8A%93%E5%8C%85%E6%94%B9%E5%8C%85/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Msf</title>
+      <link>https://blog.youngblog.cc/hacker/msf/</link>
+      <pubDate>Sun, 05 Aug 2018 01:02:29 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/hacker/msf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sqlmap</title>
+      <link>https://blog.youngblog.cc/hacker/sqlmap/</link>
+      <pubDate>Sun, 05 Aug 2018 01:02:24 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/hacker/sqlmap/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Nmap</title>
@@ -17,7 +44,7 @@
       <pubDate>Tue, 12 Jun 2018 17:19:08 +0800</pubDate>
       
       <guid>https://blog.youngblog.cc/hacker/nmap/</guid>
-      <description>nmap 用例 nc 长连接监听 ＇ nc -l 80 -k</description>
+      <description>nmap 用例 常用语法 指定范围 查询对端版本 ips绕过 udp查询 高级用法 指定脚本 nc 长连接监听 ＇ nc -l 80 -k</description>
     </item>
     
   </channel>

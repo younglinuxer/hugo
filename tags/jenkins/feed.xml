@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jenkins on younglinuxer</title>
+    <link>https://blog.youngblog.cc/tags/jenkins/</link>
+    <description>Recent content in Jenkins on younglinuxer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 04 Aug 2018 23:19:23 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.youngblog.cc/tags/jenkins/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jenkins</title>
+      <link>https://blog.youngblog.cc/linux/jenkins/</link>
+      <pubDate>Sat, 04 Aug 2018 23:19:23 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/jenkins/</guid>
+      <description>jenkins 小结 安装 常用模块 自动触发构建 常用编译工具 自动上线 邮件通知 小结</description>
+    </item>
+    
+  </channel>
+</rss>

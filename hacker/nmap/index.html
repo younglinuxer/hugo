@@ -5,10 +5,10 @@
   <title>Nmap - younglinuxer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="nmap 用例 nc 长连接监听 ＇ nc -l 80 -k">
+  <meta name="description" content="nmap 用例 常用语法 指定范围 查询对端版本 ips绕过 udp查询 高级用法 指定脚本 nc 长连接监听 ＇ nc -l 80 -k">
   
   <meta itemprop="name" content="Nmap - younglinuxer">
-  <meta itemprop="description" content="nmap 用例 nc 长连接监听 ＇ nc -l 80 -k">
+  <meta itemprop="description" content="nmap 用例 常用语法 指定范围 查询对端版本 ips绕过 udp查询 高级用法 指定脚本 nc 长连接监听 ＇ nc -l 80 -k">
   <meta itemprop="image" content="https://blog.youngblog.cc/img/author.jpg">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@coderzh" />
@@ -89,9 +89,19 @@
 <ul>
 <li>
 <ul>
-<li>
+<li><a href="#nmap-用例">nmap 用例</a>
 <ul>
-<li><a href="#nmap-用例">nmap 用例</a></li>
+<li><a href="#常用语法">常用语法</a>
+<ul>
+<li><a href="#指定范围">指定范围</a></li>
+<li><a href="#查询对端版本">查询对端版本</a></li>
+<li><a href="#ips绕过">ips绕过</a></li>
+<li><a href="#udp查询">udp查询</a></li>
+</ul></li>
+<li><a href="#高级用法">高级用法</a>
+<ul>
+<li><a href="#指定脚本">指定脚本</a></li>
+</ul></li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -102,7 +112,21 @@
     
     
 
-<h5 id="nmap-用例">nmap 用例</h5>
+<h4 id="nmap-用例">nmap 用例</h4>
+
+<h5 id="常用语法">常用语法</h5>
+
+<h6 id="指定范围">指定范围</h6>
+
+<h6 id="查询对端版本">查询对端版本</h6>
+
+<h6 id="ips绕过">ips绕过</h6>
+
+<h6 id="udp查询">udp查询</h6>
+
+<h5 id="高级用法">高级用法</h5>
+
+<h6 id="指定脚本">指定脚本</h6>
 
 <p>nc 长连接监听　＇</p>
 
@@ -115,7 +139,7 @@
 <div class="article-tags">
   <span></span>
   
-  <a target="_blank" href="https://blog.youngblog.cc/tags/linux">linux</a>
+  <a target="_blank" href="https://blog.youngblog.cc/tags/hack">hack</a>
   
 </div>
 
@@ -169,11 +193,11 @@
   <p class="asidetitle">分类</p>
   <ul>
     
-    <li><a href="https://blog.youngblog.cc/categories/db" title="db">db<sup>3</sup></a></li>
+    <li><a href="https://blog.youngblog.cc/categories/db" title="db">db<sup>8</sup></a></li>
     
     <li><a href="https://blog.youngblog.cc/categories/doc" title="doc">doc<sup>1</sup></a></li>
     
-    <li><a href="https://blog.youngblog.cc/categories/linux" title="linux">linux<sup>9</sup></a></li>
+    <li><a href="https://blog.youngblog.cc/categories/linux" title="linux">linux<sup>27</sup></a></li>
     
     <li><a href="https://blog.youngblog.cc/categories/network" title="network">network<sup>2</sup></a></li>
     
@@ -188,15 +212,27 @@
 	<p class="asidetitle">标签</p>
 		<ul class="clearfix">
       
-			<li><a href="https://blog.youngblog.cc/tags/book" title="book">book<sup>2</sup></a></li>
+			<li><a href="https://blog.youngblog.cc/tags/book" title="book">book<sup>3</sup></a></li>
       
-			<li><a href="https://blog.youngblog.cc/tags/db" title="db">db<sup>3</sup></a></li>
+			<li><a href="https://blog.youngblog.cc/tags/db" title="db">db<sup>1</sup></a></li>
       
-			<li><a href="https://blog.youngblog.cc/tags/docker" title="docker">docker<sup>1</sup></a></li>
+			<li><a href="https://blog.youngblog.cc/tags/docker" title="docker">docker<sup>2</sup></a></li>
       
-			<li><a href="https://blog.youngblog.cc/tags/linux" title="linux">linux<sup>7</sup></a></li>
+			<li><a href="https://blog.youngblog.cc/tags/hack" title="hack">hack<sup>4</sup></a></li>
+      
+			<li><a href="https://blog.youngblog.cc/tags/jenkins" title="jenkins">jenkins<sup>1</sup></a></li>
+      
+			<li><a href="https://blog.youngblog.cc/tags/linux" title="linux">linux<sup>19</sup></a></li>
+      
+			<li><a href="https://blog.youngblog.cc/tags/mongodb" title="mongodb">mongodb<sup>1</sup></a></li>
+      
+			<li><a href="https://blog.youngblog.cc/tags/mysql" title="mysql">mysql<sup>3</sup></a></li>
       
 			<li><a href="https://blog.youngblog.cc/tags/network" title="network">network<sup>2</sup></a></li>
+      
+			<li><a href="https://blog.youngblog.cc/tags/oracle" title="oracle">oracle<sup>1</sup></a></li>
+      
+			<li><a href="https://blog.youngblog.cc/tags/redis" title="redis">redis<sup>1</sup></a></li>
       
 		</ul>
 </div>
@@ -229,9 +265,21 @@
     
     <a href="https://blog.youngblog.cc/tags/docker" style="font-size: 12px;">docker</a>
     
+    <a href="https://blog.youngblog.cc/tags/hack" style="font-size: 12px;">hack</a>
+    
+    <a href="https://blog.youngblog.cc/tags/jenkins" style="font-size: 12px;">jenkins</a>
+    
     <a href="https://blog.youngblog.cc/tags/linux" style="font-size: 12px;">linux</a>
     
+    <a href="https://blog.youngblog.cc/tags/mongodb" style="font-size: 12px;">mongodb</a>
+    
+    <a href="https://blog.youngblog.cc/tags/mysql" style="font-size: 12px;">mysql</a>
+    
     <a href="https://blog.youngblog.cc/tags/network" style="font-size: 12px;">network</a>
+    
+    <a href="https://blog.youngblog.cc/tags/oracle" style="font-size: 12px;">oracle</a>
+    
+    <a href="https://blog.youngblog.cc/tags/redis" style="font-size: 12px;">redis</a>
     
   </div>
 </div>

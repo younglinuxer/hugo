@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on younglinuxer</title>
+    <link>https://blog.youngblog.cc/tags/mysql/</link>
+    <description>Recent content in Mysql on younglinuxer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 05 Aug 2018 00:34:12 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.youngblog.cc/tags/mysql/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mysql3</title>
+      <link>https://blog.youngblog.cc/db/mysql3/</link>
+      <pubDate>Sun, 05 Aug 2018 00:34:12 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/mysql3/</guid>
+      <description>mysql第三部分 索引 变量设定 事务 存储过程 触发器 sql分析 内存优化</description>
+    </item>
+    
+    <item>
+      <title>Mysql2</title>
+      <link>https://blog.youngblog.cc/db/mysql2/</link>
+      <pubDate>Sun, 05 Aug 2018 00:17:30 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/mysql2/</guid>
+      <description>mysql第二部分 增删改查 用户与权限管理 连表查询 常用内置函数 mysql 5.6 5.7 8.0</description>
+    </item>
+    
+    <item>
+      <title>Mysql(1)</title>
+      <link>https://blog.youngblog.cc/db/mysql1/</link>
+      <pubDate>Sat, 04 Aug 2018 23:14:05 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/mysql1/</guid>
+      <description>mysql 常用 安装 参数优化 数据目录设置 磁盘选择+文件系统选择 日志优化 字符集设置 备份与恢复 物理备份 逻辑备份 数据迁移验证</description>
+    </item>
+    
+  </channel>
+</rss>

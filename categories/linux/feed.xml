@@ -6,10 +6,172 @@
     <description>Recent content in Linux on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 02 Aug 2018 09:52:59 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 05 Aug 2018 01:02:52 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.youngblog.cc/categories/linux/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>抓包改包</title>
+      <link>https://blog.youngblog.cc/hacker/%E6%8A%93%E5%8C%85%E6%94%B9%E5%8C%85/</link>
+      <pubDate>Sun, 05 Aug 2018 01:02:52 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/hacker/%E6%8A%93%E5%8C%85%E6%94%B9%E5%8C%85/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Msf</title>
+      <link>https://blog.youngblog.cc/hacker/msf/</link>
+      <pubDate>Sun, 05 Aug 2018 01:02:29 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/hacker/msf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sqlmap</title>
+      <link>https://blog.youngblog.cc/hacker/sqlmap/</link>
+      <pubDate>Sun, 05 Aug 2018 01:02:24 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/hacker/sqlmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>亿级流量网站架构核心技术</title>
+      <link>https://blog.youngblog.cc/book/%E4%BA%BF%E7%BA%A7%E6%B5%81%E9%87%8F%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Sat, 04 Aug 2018 23:33:44 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/book/%E4%BA%BF%E7%BA%A7%E6%B5%81%E9%87%8F%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://blog.youngblog.cc/code/golang/</link>
+      <pubDate>Sat, 04 Aug 2018 23:21:52 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/code/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orm</title>
+      <link>https://blog.youngblog.cc/code/orm/</link>
+      <pubDate>Sat, 04 Aug 2018 23:21:46 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/code/orm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flask</title>
+      <link>https://blog.youngblog.cc/code/flask/</link>
+      <pubDate>Sat, 04 Aug 2018 23:21:03 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/code/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://blog.youngblog.cc/linux/docker/</link>
+      <pubDate>Sat, 04 Aug 2018 23:19:45 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/docker/</guid>
+      <description>docker 常用命令 优化 国内加速 Dockerfile 编写规范 常用命令 ##### harbor 仓库搭建</description>
+    </item>
+    
+    <item>
+      <title>Jenkins</title>
+      <link>https://blog.youngblog.cc/linux/jenkins/</link>
+      <pubDate>Sat, 04 Aug 2018 23:19:23 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/jenkins/</guid>
+      <description>jenkins 小结 安装 常用模块 自动触发构建 常用编译工具 自动上线 邮件通知 小结</description>
+    </item>
+    
+    <item>
+      <title>服务器基线配置</title>
+      <link>https://blog.youngblog.cc/linux/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%BA%E7%BA%BF%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Sat, 04 Aug 2018 23:19:12 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%BA%E7%BA%BF%E9%85%8D%E7%BD%AE/</guid>
+      <description>服务器基线配置 权限认证 登录失败处理 访问限制 应用权限 日志审计 文件完整性检查</description>
+    </item>
+    
+    <item>
+      <title>CFCA 认证小结</title>
+      <link>https://blog.youngblog.cc/linux/cfca-%E8%AE%A4%E8%AF%81%E5%B0%8F%E7%BB%93/</link>
+      <pubDate>Sat, 04 Aug 2018 23:18:31 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/cfca-%E8%AE%A4%E8%AF%81%E5%B0%8F%E7%BB%93/</guid>
+      <description>中国金融认证 认证小结 服务器类 网络类 审计类 其他类</description>
+    </item>
+    
+    <item>
+      <title>Ldap</title>
+      <link>https://blog.youngblog.cc/linux/ldap/</link>
+      <pubDate>Sat, 04 Aug 2018 23:16:54 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/ldap/</guid>
+      <description>ldap 安装 应用配置 redius usvn ssh ocserv other 查询命令 自定义应用查询配置</description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>https://blog.youngblog.cc/linux/ssh/</link>
+      <pubDate>Sat, 04 Aug 2018 23:16:49 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/ssh/</guid>
+      <description>ssh 配置 常用配置更改 使用key登录 使用外部认证ldap 免密登录 ssh 升级</description>
+    </item>
+    
+    <item>
+      <title>Tomcat</title>
+      <link>https://blog.youngblog.cc/linux/tomcat/</link>
+      <pubDate>Sat, 04 Aug 2018 23:16:26 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/tomcat/</guid>
+      <description>tomcat配置 常用配置 jvm 限制 连接数限制 端口更改 语言更改 日志重定向 多实例 systemctl+tomcat tomcat + redis + seesion</description>
+    </item>
+    
+    <item>
+      <title>Openwrt</title>
+      <link>https://blog.youngblog.cc/linux/openwrt/</link>
+      <pubDate>Sat, 04 Aug 2018 23:16:07 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/openwrt/</guid>
+      <description>ldap 活动目录 安装 应用认证 usvn ssh radius 查询语法 自定义查询</description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>https://blog.youngblog.cc/linux/nginx/</link>
+      <pubDate>Sat, 04 Aug 2018 23:15:40 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shadowsocks</title>
+      <link>https://blog.youngblog.cc/linux/shadowsocks/</link>
+      <pubDate>Sat, 04 Aug 2018 23:15:16 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/shadowsocks/</guid>
+      <description>shadowsocks 代理 安装 （go版本） kcp 加速 docker 版本 linux mint 下使用pac</description>
+    </item>
+    
+    <item>
+      <title>K8s</title>
+      <link>https://blog.youngblog.cc/linux/k8s/</link>
+      <pubDate>Sat, 04 Aug 2018 23:15:09 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/k8s/</guid>
+      <description>k8s 小结</description>
+    </item>
     
     <item>
       <title>Saltstack</title>
@@ -17,7 +179,7 @@
       <pubDate>Thu, 02 Aug 2018 09:52:59 +0800</pubDate>
       
       <guid>https://blog.youngblog.cc/linux/saltstack/</guid>
-      <description>saltstack 安装 master端: &#39;yum install salt-master salt-minion&#39; minion端: &#39;yum install salt-minion&#39;</description>
+      <description>saltstack 安装 master端: &#39;yum install salt-master salt-minion&#39; minion端: &#39;yum install salt-minion&#39; 常用模块 文件分发 应用管理 权限与用户 iptables+hosts+ salt-api使用 对比</description>
     </item>
     
     <item>
@@ -71,7 +233,7 @@
       <pubDate>Tue, 12 Jun 2018 17:19:08 +0800</pubDate>
       
       <guid>https://blog.youngblog.cc/hacker/nmap/</guid>
-      <description>nmap 用例 nc 长连接监听 ＇ nc -l 80 -k</description>
+      <description>nmap 用例 常用语法 指定范围 查询对端版本 ips绕过 udp查询 高级用法 指定脚本 nc 长连接监听 ＇ nc -l 80 -k</description>
     </item>
     
     <item>

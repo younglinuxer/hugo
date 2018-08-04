@@ -5,10 +5,10 @@
   <title>Saltstack - younglinuxer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="saltstack 安装 master端: &#39;yum install salt-master salt-minion&#39; minion端: &#39;yum install salt-minion&#39;">
+  <meta name="description" content="saltstack 安装 master端: &#39;yum install salt-master salt-minion&#39; minion端: &#39;yum install salt-minion&#39; 常用模块 文件分发 应用管理 权限与用户 iptables&#43;hosts&#43; salt-api使用 对比">
   
   <meta itemprop="name" content="Saltstack - younglinuxer">
-  <meta itemprop="description" content="saltstack 安装 master端: &#39;yum install salt-master salt-minion&#39; minion端: &#39;yum install salt-minion&#39;">
+  <meta itemprop="description" content="saltstack 安装 master端: &#39;yum install salt-master salt-minion&#39; minion端: &#39;yum install salt-minion&#39; 常用模块 文件分发 应用管理 权限与用户 iptables&#43;hosts&#43; salt-api使用 对比">
   <meta itemprop="image" content="https://blog.youngblog.cc/img/author.jpg">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@coderzh" />
@@ -92,6 +92,15 @@
 <li><a href="#saltstack">saltstack</a>
 <ul>
 <li><a href="#安装">安装</a></li>
+<li><a href="#常用模块">常用模块</a>
+<ul>
+<li><a href="#文件分发">文件分发</a></li>
+<li><a href="#应用管理">应用管理</a></li>
+<li><a href="#权限与用户">权限与用户</a></li>
+<li><a href="#iptables-hosts">iptables+hosts+</a></li>
+</ul></li>
+<li><a href="#salt-api使用">salt-api使用</a></li>
+<li><a href="#对比">对比</a></li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -111,6 +120,20 @@
 
 minion端: 'yum install salt-minion'
 </code></pre>
+
+<h5 id="常用模块">常用模块</h5>
+
+<h6 id="文件分发">文件分发</h6>
+
+<h6 id="应用管理">应用管理</h6>
+
+<h6 id="权限与用户">权限与用户</h6>
+
+<h6 id="iptables-hosts">iptables+hosts+</h6>
+
+<h5 id="salt-api使用">salt-api使用</h5>
+
+<h5 id="对比">对比</h5>
 
 	</div>
   <footer class="article-footer clearfix">
@@ -173,11 +196,11 @@ minion端: 'yum install salt-minion'
   <p class="asidetitle">分类</p>
   <ul>
     
-    <li><a href="https://blog.youngblog.cc/categories/db" title="db">db<sup>3</sup></a></li>
+    <li><a href="https://blog.youngblog.cc/categories/db" title="db">db<sup>8</sup></a></li>
     
     <li><a href="https://blog.youngblog.cc/categories/doc" title="doc">doc<sup>1</sup></a></li>
     
-    <li><a href="https://blog.youngblog.cc/categories/linux" title="linux">linux<sup>9</sup></a></li>
+    <li><a href="https://blog.youngblog.cc/categories/linux" title="linux">linux<sup>27</sup></a></li>
     
     <li><a href="https://blog.youngblog.cc/categories/network" title="network">network<sup>2</sup></a></li>
     
@@ -192,15 +215,27 @@ minion端: 'yum install salt-minion'
 	<p class="asidetitle">标签</p>
 		<ul class="clearfix">
       
-			<li><a href="https://blog.youngblog.cc/tags/book" title="book">book<sup>2</sup></a></li>
+			<li><a href="https://blog.youngblog.cc/tags/book" title="book">book<sup>3</sup></a></li>
       
-			<li><a href="https://blog.youngblog.cc/tags/db" title="db">db<sup>3</sup></a></li>
+			<li><a href="https://blog.youngblog.cc/tags/db" title="db">db<sup>1</sup></a></li>
       
-			<li><a href="https://blog.youngblog.cc/tags/docker" title="docker">docker<sup>1</sup></a></li>
+			<li><a href="https://blog.youngblog.cc/tags/docker" title="docker">docker<sup>2</sup></a></li>
       
-			<li><a href="https://blog.youngblog.cc/tags/linux" title="linux">linux<sup>7</sup></a></li>
+			<li><a href="https://blog.youngblog.cc/tags/hack" title="hack">hack<sup>4</sup></a></li>
+      
+			<li><a href="https://blog.youngblog.cc/tags/jenkins" title="jenkins">jenkins<sup>1</sup></a></li>
+      
+			<li><a href="https://blog.youngblog.cc/tags/linux" title="linux">linux<sup>19</sup></a></li>
+      
+			<li><a href="https://blog.youngblog.cc/tags/mongodb" title="mongodb">mongodb<sup>1</sup></a></li>
+      
+			<li><a href="https://blog.youngblog.cc/tags/mysql" title="mysql">mysql<sup>3</sup></a></li>
       
 			<li><a href="https://blog.youngblog.cc/tags/network" title="network">network<sup>2</sup></a></li>
+      
+			<li><a href="https://blog.youngblog.cc/tags/oracle" title="oracle">oracle<sup>1</sup></a></li>
+      
+			<li><a href="https://blog.youngblog.cc/tags/redis" title="redis">redis<sup>1</sup></a></li>
       
 		</ul>
 </div>
@@ -233,9 +268,21 @@ minion端: 'yum install salt-minion'
     
     <a href="https://blog.youngblog.cc/tags/docker" style="font-size: 12px;">docker</a>
     
+    <a href="https://blog.youngblog.cc/tags/hack" style="font-size: 12px;">hack</a>
+    
+    <a href="https://blog.youngblog.cc/tags/jenkins" style="font-size: 12px;">jenkins</a>
+    
     <a href="https://blog.youngblog.cc/tags/linux" style="font-size: 12px;">linux</a>
     
+    <a href="https://blog.youngblog.cc/tags/mongodb" style="font-size: 12px;">mongodb</a>
+    
+    <a href="https://blog.youngblog.cc/tags/mysql" style="font-size: 12px;">mysql</a>
+    
     <a href="https://blog.youngblog.cc/tags/network" style="font-size: 12px;">network</a>
+    
+    <a href="https://blog.youngblog.cc/tags/oracle" style="font-size: 12px;">oracle</a>
+    
+    <a href="https://blog.youngblog.cc/tags/redis" style="font-size: 12px;">redis</a>
     
   </div>
 </div>
