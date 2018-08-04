@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.youngblog.cc/linux/saltstack/</loc>
+    <lastmod>2018-08-02T09:52:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.youngblog.cc/book/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2/</loc>
+    <lastmod>2018-08-02T09:39:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.youngblog.cc/book/%E6%BF%80%E8%8D%A1%E5%8D%81%E5%B9%B4%E6%B0%B4%E5%A4%A7%E9%B1%BC%E5%A4%A7/</loc>
+    <lastmod>2018-08-02T09:38:20+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.youngblog.cc/db/redis/</loc>
     <lastmod>2018-07-30T16:26:13+08:00</lastmod>
   </url>
@@ -68,18 +83,30 @@
   </url>
   
   <url>
+    <loc>https://blog.youngblog.cc/tags/book/</loc>
+    <lastmod>2018-08-02T09:39:52+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.youngblog.cc/book/</loc>
+    <lastmod>2018-08-02T09:39:52+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.youngblog.cc/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.youngblog.cc/categories/db/</loc>
+    <loc>https://blog.youngblog.cc/tags/db/</loc>
     <lastmod>2018-07-30T16:26:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.youngblog.cc/tags/db/</loc>
+    <loc>https://blog.youngblog.cc/categories/db/</loc>
     <lastmod>2018-07-30T16:26:13+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -115,31 +142,31 @@
   </url>
   
   <url>
-    <loc>https://blog.youngblog.cc/categories/linux/</loc>
-    <lastmod>2018-07-16T22:22:25+08:00</lastmod>
+    <loc>https://blog.youngblog.cc/tags/linux/</loc>
+    <lastmod>2018-08-02T09:52:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.youngblog.cc/tags/linux/</loc>
-    <lastmod>2018-07-16T22:22:25+08:00</lastmod>
+    <loc>https://blog.youngblog.cc/categories/linux/</loc>
+    <lastmod>2018-08-02T09:52:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.youngblog.cc/linux/</loc>
-    <lastmod>2018-07-16T22:22:25+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.youngblog.cc/categories/network/</loc>
-    <lastmod>2018-06-05T12:30:05+08:00</lastmod>
+    <lastmod>2018-08-02T09:52:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.youngblog.cc/tags/network/</loc>
+    <lastmod>2018-06-05T12:30:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.youngblog.cc/categories/network/</loc>
     <lastmod>2018-06-05T12:30:05+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -158,13 +185,13 @@
   
   <url>
     <loc>https://blog.youngblog.cc/tags/</loc>
-    <lastmod>2018-07-30T16:26:13+08:00</lastmod>
+    <lastmod>2018-08-02T09:39:52+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.youngblog.cc/feed.xml</loc>
-    <lastmod>2018-07-30T16:26:13+08:00</lastmod>
+    <lastmod>2018-08-02T09:52:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
