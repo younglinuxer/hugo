@@ -25,6 +25,9 @@ hugo new about.md
 生成public目录 （将这个目录提交到 git pages 上就可以访问自己的博了）
 hugo --theme=min_night --baseUrl="https://younglinuxer.github.io/hugo/"
 
-hugo --theme=hugo-pacman-theme --baseUrl="https://younglinuxer.github.io/hugo/"
+#####hugo --theme=hugo-pacman-theme --baseUrl="https://younglinuxer.github.io/hugo/"
 
-hugo server　--theme=hugo-pacman-theme -D
+#hugo　更新指定　baseurl 需要指定url相对路径　'/'
+hugo --theme=hugo-pacman-theme --baseUrl="https://blog.youngblog.cc/"
+
+hugo server --theme=hugo-pacman-theme -D
