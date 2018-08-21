@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51af5abe-a593-4eb4-9ee9-278cdbd55318" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/note/redis_set_young.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hugo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hugo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REDEME" beforeDir="false" afterPath="$PROJECT_DIR$/REDEME" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/archetypes/default.md" beforeDir="false" afterPath="$PROJECT_DIR$/archetypes/default.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/db/mysql_index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/doc/docker-compose.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/hacker/nmap.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/hacker/nmap.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/categories/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/feed.xml" afterDir="false" />
@@ -37,7 +31,6 @@
       <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tags/test/feed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tags/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-pacman-theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-pacman-theme" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,18 +57,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqlmap.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/hacker/sqlmap.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="msf.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/hacker/msf.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -92,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/REDEME">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -107,14 +88,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="switch.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="switch.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/network/switch.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="390">
-                <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <first_editor relative-caret-position="480">
+                <caret line="32" selection-start-line="32" selection-end-line="32" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archetypes/default.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="talust-jenkins.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/doc/talust-jenkins.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="285">
+                <caret line="19" column="103" selection-start-line="19" selection-start-column="103" selection-end-line="19" selection-end-column="103" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme.toml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/theme.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -129,36 +143,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="抓包改包.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/hacker/抓包改包.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mysql3.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/db/mysql3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="60">
                 <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql2.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/db/mysql2.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -196,12 +186,17 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/123.html" />
         <option value="$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/partials/comment.html" />
         <option value="$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/partials/head.html" />
         <option value="$PROJECT_DIR$/config.toml" />
@@ -216,7 +211,6 @@
         <option value="$PROJECT_DIR$/content/linux/docker-compose.md" />
         <option value="$PROJECT_DIR$/content/linux/iptables.md" />
         <option value="$PROJECT_DIR$/content/linux/yum.md" />
-        <option value="$PROJECT_DIR$/archetypes/default.md" />
         <option value="$PROJECT_DIR$/Linux-Tutorial/Linux-Tutorial/RabbitMQ-Install-And-Settings.md" />
         <option value="$PROJECT_DIR$/content/db/rabbitmq.md" />
         <option value="$PROJECT_DIR$/content/redis.md" />
@@ -252,6 +246,8 @@
         <option value="$PROJECT_DIR$/content/hacker/抓包改包.md" />
         <option value="$PROJECT_DIR$/content/db/mysql3.md" />
         <option value="$PROJECT_DIR$/content/network/switch.md" />
+        <option value="$PROJECT_DIR$/archetypes/default.md" />
+        <option value="$PROJECT_DIR$/content/doc/talust-jenkins.md" />
       </list>
     </option>
   </component>
@@ -265,18 +261,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="326" />
-    <option name="y" value="206" />
-    <option name="width" value="1344" />
-    <option name="height" value="993" />
+    <option name="x" value="301" />
+    <option name="width" value="1320" />
+    <option name="height" value="990" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,57 +278,13 @@
               <item name="hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="hugo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="linux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="exampleSite" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,7 +298,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -503,7 +453,11 @@
       <workItem from="1533388333498" duration="12493000" />
       <workItem from="1533430651672" duration="4536000" />
       <workItem from="1533618150833" duration="1824000" />
-      <workItem from="1533787111351" duration="281000" />
+      <workItem from="1533787111351" duration="5905000" />
+      <workItem from="1533979865845" duration="6027000" />
+      <workItem from="1534781587792" duration="374000" />
+      <workItem from="1534781986596" duration="348000" />
+      <workItem from="1534782353825" duration="1781000" />
     </task>
     <task id="LOCAL-00001" summary="更新README SVG 等图片">
       <created>1528168719182</created>
@@ -533,14 +487,22 @@
       <option name="project" value="LOCAL" />
       <updated>1530519758343</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="文章索引">
+      <created>1533787436402</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1533787436402</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141355000" />
+    <option name="totallyTimeSpent" value="155509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -554,7 +516,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20989583" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15416667" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -563,39 +525,40 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32979852" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4318408" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30945274" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1375" />
       <window_info id="Learn" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -611,26 +574,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Linux-Tutorial/Linux-Tutorial" />
+      <path value="$PROJECT_DIR$/themes/hugo-pacman-theme" />
+    </ignored-roots>
     <MESSAGE value="更新README SVG 等图片" />
     <MESSAGE value="增加评论  修改comment 页面模板" />
     <MESSAGE value="docker-compose" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker-compose" />
+    <MESSAGE value="文章索引" />
+    <MESSAGE value="提交所有代码　到github 关闭家里服务器" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交所有代码　到github 关闭家里服务器" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/note/young_home_dns.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/redis/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="488" selection-start-line="488" selection-end-line="488" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/note/redis_set_young.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -650,16 +605,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exampleSite/config.toml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archetypes/default.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/123.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1014,13 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/REDEME">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1040,10 +978,44 @@
     <entry file="file://$PROJECT_DIR$/content/network/switch.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <first_editor relative-caret-position="480">
+            <caret line="32" selection-start-line="32" selection-end-line="32" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archetypes/default.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REDEME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/doc/talust-jenkins.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="19" column="103" selection-start-line="19" selection-start-column="103" selection-end-line="19" selection-end-column="103" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/theme.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
