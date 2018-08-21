@@ -6,6 +6,6 @@ tags = ["linux"]
 toc = true
 author = "younglinuxer"
 comments = true
-author_homepage =  "https://younglinuxer.github.io/hugo/"
+author_homepage =  "https://blog.youngblog.cc"
 
 +++
