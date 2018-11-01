@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
-	<meta name="generator" content="Hugo 0.41" />
+	<meta name="generator" content="Hugo 0.49.2" />
   <meta charset="UTF-8">
   <title>younglinuxer - younglinuxer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
@@ -76,7 +76,7 @@
       <section class="post" itemscope itemprop="blogPost">
     <a href="https://blog.youngblog.cc/linux/jenkins/" title="Jenkins" itemprop="url">
     <h1 itemprop="name">Jenkins</h1>
-    <p itemprop="description">jenkins 小结 安装 常用模块 自动触发构建 常用编译工具 自动上线 邮件通知 小结</p>
+    <p itemprop="description">jenkins 小结 安装 （jenkins node mvn） mkdir /data/{app,bin,src,jenkins_home} -pv wget http://mirrors.jenkins.io/war/latest/jenkins.war -P /data/src/ wget http://mirrors.hust.edu.cn/apache/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz -P /data/src/ wget https://nodejs.org/dist/v8.11.3/node-v8.11.3-linux-x64.tar.xz -P /data/src/ mkdir /data/app/jenkins tar zxvf /data/src/apache-maven-3.5.4-bin.tar.gz -C /data/app tar xf /data/src/node-v8.11.3-linux-x64.tar.xz -C /data/app #创建npm 命令软链接 cd /data/app/node/bin for i in `ls`;do ln -s /data/app/node/bin/$i /usr/local/sbin/$i ;done #设置</p>
     
     <time datetime="2018-08-04 23:19:23 &#43;0800 CST" itemprop="datePublished">2018-08-04 23:19:23 &#43;0800 CST</time>
   </a>
@@ -116,7 +116,7 @@
       <section class="post" itemscope itemprop="blogPost">
     <a href="https://blog.youngblog.cc/linux/ssh/" title="Ssh" itemprop="url">
     <h1 itemprop="name">Ssh</h1>
-    <p itemprop="description">ssh 配置 常用配置更改 使用key登录 使用外部认证ldap 免密登录 ssh 升级</p>
+    <p itemprop="description">ssh 配置 #监听选项 Port 65322 #监听端口 #ListenAddress 0.0.0.0 #绑定监听地址 #ListenAddress :: #数字签名(私钥) 保存的位置 rsa dsa ecdsa 为签名的算法 默认为rsa HostKey /etc/ssh/ssh_host_rsa_key #HostKey /etc/ssh/ssh_host_dsa_key HostKey /etc/ssh/ssh_host_ecdsa_key HostKey /etc/ssh/ssh_host_ed25519_key #密码和key</p>
     
     <time datetime="2018-08-04 23:16:49 &#43;0800 CST" itemprop="datePublished">2018-08-04 23:16:49 &#43;0800 CST</time>
   </a>
@@ -179,9 +179,9 @@
     
     <li><a href="https://blog.youngblog.cc/categories/db" title="db">db<sup>8</sup></a></li>
     
-    <li><a href="https://blog.youngblog.cc/categories/doc" title="doc">doc<sup>1</sup></a></li>
+    <li><a href="https://blog.youngblog.cc/categories/doc" title="doc">doc<sup>2</sup></a></li>
     
-    <li><a href="https://blog.youngblog.cc/categories/linux" title="linux">linux<sup>27</sup></a></li>
+    <li><a href="https://blog.youngblog.cc/categories/linux" title="linux">linux<sup>28</sup></a></li>
     
     <li><a href="https://blog.youngblog.cc/categories/network" title="network">network<sup>2</sup></a></li>
     
@@ -204,9 +204,9 @@
       
 			<li><a href="https://blog.youngblog.cc/tags/hack" title="hack">hack<sup>4</sup></a></li>
       
-			<li><a href="https://blog.youngblog.cc/tags/jenkins" title="jenkins">jenkins<sup>1</sup></a></li>
+			<li><a href="https://blog.youngblog.cc/tags/jenkins" title="jenkins">jenkins<sup>2</sup></a></li>
       
-			<li><a href="https://blog.youngblog.cc/tags/linux" title="linux">linux<sup>19</sup></a></li>
+			<li><a href="https://blog.youngblog.cc/tags/linux" title="linux">linux<sup>20</sup></a></li>
       
 			<li><a href="https://blog.youngblog.cc/tags/mongodb" title="mongodb">mongodb<sup>1</sup></a></li>
       

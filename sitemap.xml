@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.youngblog.cc/doc/talust-jenkins/</loc>
+    <lastmod>2018-08-11T17:31:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.youngblog.cc/network/switch/</loc>
+    <lastmod>2018-08-05T10:10:01+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.youngblog.cc/hacker/%E6%8A%93%E5%8C%85%E6%94%B9%E5%8C%85/</loc>
     <lastmod>2018-08-05T01:02:52+08:00</lastmod>
   </url>
@@ -240,7 +250,7 @@
   
   <url>
     <loc>https://blog.youngblog.cc/categories/doc/</loc>
-    <lastmod>2018-06-05T12:30:05+08:00</lastmod>
+    <lastmod>2018-08-11T17:31:52+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -252,7 +262,7 @@
   
   <url>
     <loc>https://blog.youngblog.cc/doc/</loc>
-    <lastmod>2018-06-05T12:30:05+08:00</lastmod>
+    <lastmod>2018-08-11T17:31:52+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -270,19 +280,19 @@
   
   <url>
     <loc>https://blog.youngblog.cc/tags/jenkins/</loc>
-    <lastmod>2018-08-04T23:19:23+08:00</lastmod>
+    <lastmod>2018-08-11T17:31:52+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.youngblog.cc/tags/linux/</loc>
-    <lastmod>2018-08-04T23:21:52+08:00</lastmod>
+    <lastmod>2018-08-05T10:10:01+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.youngblog.cc/categories/linux/</loc>
-    <lastmod>2018-08-05T01:02:52+08:00</lastmod>
+    <lastmod>2018-08-05T10:10:01+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -318,7 +328,7 @@
   
   <url>
     <loc>https://blog.youngblog.cc/network/</loc>
-    <lastmod>2018-06-05T12:30:05+08:00</lastmod>
+    <lastmod>2018-08-05T10:10:01+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -348,7 +358,7 @@
   
   <url>
     <loc>https://blog.youngblog.cc/feed.xml</loc>
-    <lastmod>2018-08-05T01:02:52+08:00</lastmod>
+    <lastmod>2018-08-11T17:31:52+08:00</lastmod>
     <priority>0</priority>
   </url>
   

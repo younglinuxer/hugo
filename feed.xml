@@ -6,10 +6,28 @@
     <description>Recent content on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 05 Aug 2018 01:02:52 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 Aug 2018 17:31:52 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.youngblog.cc/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Talust Jenkins</title>
+      <link>https://blog.youngblog.cc/doc/talust-jenkins/</link>
+      <pubDate>Sat, 11 Aug 2018 17:31:52 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/doc/talust-jenkins/</guid>
+      <description>Talust-jenkins 安装配置 安装 （jenkins node mvn） mkdir /data/{app,bin,src,jenkins_home} -pv wget http://mirrors.jenkins.io/war/latest/jenkins.war -P /data/src/ wget http://mirrors.hust.edu.cn/apache/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz -P /data/src/ wget https://nodejs.org/dist/v8.11.3/node-v8.11.3-linux-x64.tar.xz -P /data/src/ mkdir /data/app/jenkins tar zxvf /data/src/apache-maven-3.5.4-bin.tar.gz -C /data/app tar xf /data/src/node-v8.11.3-linux-x64.tar.xz -C /data/app #创建npm 命令软链接 cd /data/app/node/bin for i in `ls`;do ln -s /data/app/node/bin/$i /usr/local/sbin/$i ;done #</description>
+    </item>
+    
+    <item>
+      <title>Switch</title>
+      <link>https://blog.youngblog.cc/network/switch/</link>
+      <pubDate>Sun, 05 Aug 2018 10:10:01 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/network/switch/</guid>
+      <description>华为交换机配置 基础配置 #ssh 配置 # 配置vty用户界面 system-view user-interface vty 0 4 authentication-mode aaa quit # 创建ssh用户并配置其认证方式为password aaa local-user &amp;lt;user&amp;gt; password cipher &amp;lt;password&amp;gt; local-user &amp;lt;user&amp;gt; level 15 local-user &amp;lt;user&amp;gt; service-type</description>
+    </item>
     
     <item>
       <title>抓包改包</title>
@@ -107,7 +125,7 @@
       <pubDate>Sat, 04 Aug 2018 23:19:23 +0800</pubDate>
       
       <guid>https://blog.youngblog.cc/linux/jenkins/</guid>
-      <description>jenkins 小结 安装 常用模块 自动触发构建 常用编译工具 自动上线 邮件通知 小结</description>
+      <description>jenkins 小结 安装 （jenkins node mvn） mkdir /data/{app,bin,src,jenkins_home} -pv wget http://mirrors.jenkins.io/war/latest/jenkins.war -P /data/src/ wget http://mirrors.hust.edu.cn/apache/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz -P /data/src/ wget https://nodejs.org/dist/v8.11.3/node-v8.11.3-linux-x64.tar.xz -P /data/src/ mkdir /data/app/jenkins tar zxvf /data/src/apache-maven-3.5.4-bin.tar.gz -C /data/app tar xf /data/src/node-v8.11.3-linux-x64.tar.xz -C /data/app #创建npm 命令软链接 cd /data/app/node/bin for i in `ls`;do ln -s /data/app/node/bin/$i /usr/local/sbin/$i ;done #设置</description>
     </item>
     
     <item>
@@ -143,7 +161,7 @@
       <pubDate>Sat, 04 Aug 2018 23:16:49 +0800</pubDate>
       
       <guid>https://blog.youngblog.cc/linux/ssh/</guid>
-      <description>ssh 配置 常用配置更改 使用key登录 使用外部认证ldap 免密登录 ssh 升级</description>
+      <description>ssh 配置 #监听选项 Port 65322 #监听端口 #ListenAddress 0.0.0.0 #绑定监听地址 #ListenAddress :: #数字签名(私钥) 保存的位置 rsa dsa ecdsa 为签名的算法 默认为rsa HostKey /etc/ssh/ssh_host_rsa_key #HostKey /etc/ssh/ssh_host_dsa_key HostKey /etc/ssh/ssh_host_ecdsa_key HostKey /etc/ssh/ssh_host_ed25519_key #密码和key</description>
     </item>
     
     <item>
