@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hack on younglinuxer</title>
+    <link>https://blog.youngblog.cc/tags/hack/</link>
+    <description>Recent content in Hack on younglinuxer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 05 Aug 2018 01:02:52 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.youngblog.cc/tags/hack/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>抓包改包</title>
+      <link>https://blog.youngblog.cc/hacker/%E6%8A%93%E5%8C%85%E6%94%B9%E5%8C%85/</link>
+      <pubDate>Sun, 05 Aug 2018 01:02:52 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/hacker/%E6%8A%93%E5%8C%85%E6%94%B9%E5%8C%85/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Msf</title>
+      <link>https://blog.youngblog.cc/hacker/msf/</link>
+      <pubDate>Sun, 05 Aug 2018 01:02:29 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/hacker/msf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sqlmap</title>
+      <link>https://blog.youngblog.cc/hacker/sqlmap/</link>
+      <pubDate>Sun, 05 Aug 2018 01:02:24 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/hacker/sqlmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nmap</title>
+      <link>https://blog.youngblog.cc/hacker/nmap/</link>
+      <pubDate>Tue, 12 Jun 2018 17:19:08 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/hacker/nmap/</guid>
+      <description>nmap 用例 常用语法 指定范围 查询对端版本 ips绕过 udp查询 高级用法 指定脚本 nc 长连接监听 ＇ nc -l 80 -k</description>
+    </item>
+    
+  </channel>
+</rss>

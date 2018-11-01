@@ -1,12 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51af5abe-a593-4eb4-9ee9-278cdbd55318" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/hugo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="51af5abe-a593-4eb4-9ee9-278cdbd55318" name="Default" comment="编写对应的目录　下次对应编写&#10;&#10;(cherry picked from commit 96360d07045f20201d508a77e09cb1ed4d390b73)&#10;&#10;# Conflicts:&#10;#&#9;about/index.html&#10;#&#9;book/feed.xml&#10;#&#9;book/人类简史/index.html&#10;#&#9;book/激荡十年水大鱼大/index.html&#10;#&#9;categories/db/feed.xml&#10;#&#9;categories/db/index.html&#10;#&#9;categories/feed.xml&#10;#&#9;categories/linux/feed.xml&#10;#&#9;categories/linux/index.html&#10;#&#9;db/feed.xml&#10;#&#9;db/rabbitmq/index.html&#10;#&#9;db/redis/index.html&#10;#&#9;doc/k8s/index.html&#10;#&#9;feed.xml&#10;#&#9;hacker/feed.xml&#10;#&#9;hacker/nmap/index.html&#10;#&#9;index.html&#10;#&#9;linux/docker-compose/index.html&#10;#&#9;linux/feed.xml&#10;#&#9;linux/hugo/index.html&#10;#&#9;linux/index.html&#10;#&#9;linux/iptables/index.html&#10;#&#9;linux/linuxmit/index.html&#10;#&#9;linux/saltstack/index.html&#10;#&#9;linux/yum/index.html&#10;#&#9;network/index.html&#10;#&#9;network/route/index.html&#10;#&#9;public/404.html&#10;#&#9;public/categories/index.html&#10;#&#9;public/categories/思考感悟/index.html&#10;#&#9;public/categories/技术文章/index.html&#10;#&#9;public/index.html&#10;#&#9;public/post/hello-hugo/index.html&#10;#&#9;public/post/index.html&#10;#&#9;public/tags/bar/index.html&#10;#&#9;public/tags/foo/index.html&#10;#&#9;public/tags/index.html&#10;#&#9;public/tags/test/index.html&#10;#&#9;sitemap.xml&#10;#&#9;tags/book/feed.xml&#10;#&#9;tags/book/index.html&#10;#&#9;tags/db/feed.xml&#10;#&#9;tags/db/index.html&#10;#&#9;tags/docker/feed.xml&#10;#&#9;tags/docker/index.html&#10;#&#9;tags/feed.xml&#10;#&#9;tags/index.html&#10;#&#9;tags/linux/feed.xml&#10;#&#9;tags/linux/index.html">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/book/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/book/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/book/人类简史/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/book/亿级流量网站架构核心技术/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/book/激荡十年水大鱼大/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/db/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/db/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/doc/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/linux/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/linux/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/network/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/network/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/code/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/code/flask/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/code/golang/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/code/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/code/orm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/db/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/db/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/db/mongodb/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/db/mysql1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/db/mysql2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/db/mysql3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/db/oracle/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/db/postgresql/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/db/rabbitmq/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/db/redis/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/doc/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/doc/k8s/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/doc/talust-jenkins/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/hacker/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/hacker/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/hacker/msf/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/hacker/nmap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/hacker/sqlmap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/hacker/抓包改包/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/author0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/favicon_bak.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo0 (鍓湰).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo0.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/pacman0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/cfca-认证小结/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/docker-compose/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/docker/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/hugo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/iptables/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/jenkins/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/k8s/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/ldap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/linuxmit/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/nginx/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/openwrt/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/saltstack/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/shadowsocks/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/ssh/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/tomcat/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/yum/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linux/服务器基线配置/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/network/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/network/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/network/route/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/network/switch/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/post/route/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/book/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/book/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/db/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/db/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/docker/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/docker/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/hack/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/hack/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/jenkins/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/jenkins/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/linux/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/linux/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/mongodb/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/mongodb/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/mysql/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/mysql/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/network/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/network/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/oracle/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/oracle/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/redis/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/redis/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/themes.tgz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REDEME" beforeDir="false" afterPath="$PROJECT_DIR$/REDEME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/linux/jenkins.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/linux/jenkins.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/linux/ssh.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/linux/ssh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/linux/yum.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/linux/yum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/ldap.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/redis_set_young.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/young_home_dns.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/author.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/author.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/pacman.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/pacman.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/post/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/post/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/feed.xml" afterDir="false" />
+    </list>
+    <list id="cfc011e5-dc22-4851-a70b-1c4c008fbe5f" name="编写对应的目录　下次对应编写" comment="编写对应的目录　下次对应编写&#10;&#10;(cherry picked from commit 96360d07045f20201d508a77e09cb1ed4d390b73)">
+      <changelist_data name="young" email="a1352794122@gmail.com" date="1533402464000" />
+      <change afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/人类简史/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/亿级流量网站架构核心技术/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/激荡十年水大鱼大/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/db/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/db/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/linux/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/linux/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/flask/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/golang/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/orm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/思考感悟/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/思考感悟/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/技术文章/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/技术文章/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/post/hello-hugo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/post/hello-hugo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/post/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/post/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/bar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/bar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/foo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/foo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/test/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +157,15 @@
     <session id="-1778348332">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -30,10 +176,153 @@
           <entry key="git.branch.delete.local" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="REDEME" value="2" />
+          <entry key="html" value="2" />
+          <entry key="ico" value="2" />
+          <entry key="jpg" value="4" />
+          <entry key="md" value="15" />
+          <entry key="png" value="2" />
+          <entry key="svg" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="Image" value="8" />
+          <entry key="Markdown" value="15" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="SVG" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="Markdown" value="4820" />
+          <entry key="PLAIN_TEXT" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="REDEME" value="14" />
+          <entry key="md" value="4822" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.go.postfix.template.usages.trigger" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/linux/k8s.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="228">
+                <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/linux/nginx.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/linux/openwrt.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="380">
+                <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/linux/saltstack.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="494">
+                <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/linux/shadowsocks.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="304">
+                <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/linux/ssh.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="475">
+                <caret line="25" selection-start-line="25" selection-end-line="25" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/REDEME">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/linux/tomcat.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="437">
+                <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/linux/yum.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="684">
+                <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,9 +343,11 @@
       <find>Params.Strings.A</find>
       <find>&lt;a</find>
       <find>&lt;time</find>
+      <find>talust</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>younglinuxer</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/partials</dir>
@@ -75,7 +366,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/partials/comment.html" />
         <option value="$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/partials/head.html" />
         <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/index.html" />
@@ -88,7 +378,6 @@
         <option value="$PROJECT_DIR$/note/ldap.sh" />
         <option value="$PROJECT_DIR$/content/linux/docker-compose.md" />
         <option value="$PROJECT_DIR$/content/linux/iptables.md" />
-        <option value="$PROJECT_DIR$/content/linux/yum.md" />
         <option value="$PROJECT_DIR$/Linux-Tutorial/Linux-Tutorial/RabbitMQ-Install-And-Settings.md" />
         <option value="$PROJECT_DIR$/content/db/rabbitmq.md" />
         <option value="$PROJECT_DIR$/content/redis.md" />
@@ -97,7 +386,6 @@
         <option value="$PROJECT_DIR$/content/book/人类简史.md" />
         <option value="$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/partials/article_header.html" />
         <option value="$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/partials/article.html" />
-        <option value="$PROJECT_DIR$/REDEME" />
         <option value="$PROJECT_DIR$/content/book/亿级流量网站架构核心技术.md" />
         <option value="$PROJECT_DIR$/content/db/mysql_index.md" />
         <option value="$PROJECT_DIR$/content/db/postgresql.md" />
@@ -105,13 +393,11 @@
         <option value="$PROJECT_DIR$/content/linux/k8s.md" />
         <option value="$PROJECT_DIR$/content/linux/openwrt.md" />
         <option value="$PROJECT_DIR$/content/linux/saltstack.md" />
-        <option value="$PROJECT_DIR$/content/linux/ssh.md" />
         <option value="$PROJECT_DIR$/content/db/mongodb.md" />
         <option value="$PROJECT_DIR$/content/db/mysql.md" />
         <option value="$PROJECT_DIR$/content/db/oracle.md" />
         <option value="$PROJECT_DIR$/content/linux/tomcat.md" />
         <option value="$PROJECT_DIR$/content/linux/shadowsocks.md" />
-        <option value="$PROJECT_DIR$/content/linux/jenkins.md" />
         <option value="$PROJECT_DIR$/content/db/mysql(1).md" />
         <option value="$PROJECT_DIR$/content/db/mysql2.md" />
         <option value="$PROJECT_DIR$/content/linux/docker.md" />
@@ -126,6 +412,11 @@
         <option value="$PROJECT_DIR$/content/network/switch.md" />
         <option value="$PROJECT_DIR$/archetypes/default.md" />
         <option value="$PROJECT_DIR$/content/doc/talust-jenkins.md" />
+        <option value="$PROJECT_DIR$/content/linux/jenkins.md" />
+        <option value="$PROJECT_DIR$/content/linux/yum.md" />
+        <option value="$PROJECT_DIR$/content/linux/ssh.md" />
+        <option value="$PROJECT_DIR$/content/doc/Talust-prod.md" />
+        <option value="$PROJECT_DIR$/REDEME" />
       </list>
     </option>
   </component>
@@ -136,9 +427,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="301" />
-    <option name="width" value="1320" />
-    <option name="height" value="990" />
+    <option name="x" value="939" />
+    <option name="y" value="11" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -146,8 +438,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,13 +449,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541060271713" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../talust-config-repo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -175,12 +470,14 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/content/doc" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\hugo\themes\hugo-pacman-theme\static\img" />
+      <recent name="$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/partials" />
       <recent name="$PROJECT_DIR$/themes/hugo-pacman-theme/static/img" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/partials" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\hugo\themes\hugo-pacman-theme\static\img" />
+      <recent name="$PROJECT_DIR$/content/doc" />
       <recent name="$PROJECT_DIR$/themes/hugo-pacman-theme/static/img" />
     </key>
   </component>
@@ -318,6 +615,15 @@
       <workItem from="1534781986596" duration="348000" />
       <workItem from="1534782353825" duration="1781000" />
       <workItem from="1539680332990" duration="529000" />
+      <workItem from="1540286424837" duration="2209000" />
+      <workItem from="1540344686153" duration="9383000" />
+      <workItem from="1540365090654" duration="2329000" />
+      <workItem from="1540433830091" duration="1205000" />
+      <workItem from="1540516927704" duration="6216000" />
+      <workItem from="1540777945826" duration="9495000" />
+      <workItem from="1540798946281" duration="24314000" />
+      <workItem from="1541034504670" duration="12415000" />
+      <workItem from="1541057887268" duration="2212000" />
     </task>
     <task id="LOCAL-00001" summary="更新README SVG 等图片">
       <created>1528168719182</created>
@@ -358,12 +664,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156038000" />
+    <option name="totallyTimeSpent" value="228073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15565032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16471216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -382,7 +688,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32979852" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.7396963" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -429,6 +735,33 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="SHOW_DETAILS_IN_CHANGES" value="false" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -442,42 +775,10 @@
     <MESSAGE value="docker-compose" />
     <MESSAGE value="文章索引" />
     <MESSAGE value="提交所有代码　到github 关闭家里服务器" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交所有代码　到github 关闭家里服务器" />
+    <MESSAGE value="编写对应的目录　下次对应编写&#10;&#10;(cherry picked from commit 96360d07045f20201d508a77e09cb1ed4d390b73)&#10;&#10;# Conflicts:&#10;#&#9;about/index.html&#10;#&#9;book/feed.xml&#10;#&#9;book/人类简史/index.html&#10;#&#9;book/激荡十年水大鱼大/index.html&#10;#&#9;categories/db/feed.xml&#10;#&#9;categories/db/index.html&#10;#&#9;categories/feed.xml&#10;#&#9;categories/linux/feed.xml&#10;#&#9;categories/linux/index.html&#10;#&#9;db/feed.xml&#10;#&#9;db/rabbitmq/index.html&#10;#&#9;db/redis/index.html&#10;#&#9;doc/k8s/index.html&#10;#&#9;feed.xml&#10;#&#9;hacker/feed.xml&#10;#&#9;hacker/nmap/index.html&#10;#&#9;index.html&#10;#&#9;linux/docker-compose/index.html&#10;#&#9;linux/feed.xml&#10;#&#9;linux/hugo/index.html&#10;#&#9;linux/index.html&#10;#&#9;linux/iptables/index.html&#10;#&#9;linux/linuxmit/index.html&#10;#&#9;linux/saltstack/index.html&#10;#&#9;linux/yum/index.html&#10;#&#9;network/index.html&#10;#&#9;network/route/index.html&#10;#&#9;public/404.html&#10;#&#9;public/categories/index.html&#10;#&#9;public/categories/思考感悟/index.html&#10;#&#9;public/categories/技术文章/index.html&#10;#&#9;public/index.html&#10;#&#9;public/post/hello-hugo/index.html&#10;#&#9;public/post/index.html&#10;#&#9;public/tags/bar/index.html&#10;#&#9;public/tags/foo/index.html&#10;#&#9;public/tags/index.html&#10;#&#9;public/tags/test/index.html&#10;#&#9;sitemap.xml&#10;#&#9;tags/book/feed.xml&#10;#&#9;tags/book/index.html&#10;#&#9;tags/db/feed.xml&#10;#&#9;tags/db/index.html&#10;#&#9;tags/docker/feed.xml&#10;#&#9;tags/docker/index.html&#10;#&#9;tags/feed.xml&#10;#&#9;tags/index.html&#10;#&#9;tags/linux/feed.xml&#10;#&#9;tags/linux/index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写对应的目录　下次对应编写&#10;&#10;(cherry picked from commit 96360d07045f20201d508a77e09cb1ed4d390b73)&#10;&#10;# Conflicts:&#10;#&#9;about/index.html&#10;#&#9;book/feed.xml&#10;#&#9;book/人类简史/index.html&#10;#&#9;book/激荡十年水大鱼大/index.html&#10;#&#9;categories/db/feed.xml&#10;#&#9;categories/db/index.html&#10;#&#9;categories/feed.xml&#10;#&#9;categories/linux/feed.xml&#10;#&#9;categories/linux/index.html&#10;#&#9;db/feed.xml&#10;#&#9;db/rabbitmq/index.html&#10;#&#9;db/redis/index.html&#10;#&#9;doc/k8s/index.html&#10;#&#9;feed.xml&#10;#&#9;hacker/feed.xml&#10;#&#9;hacker/nmap/index.html&#10;#&#9;index.html&#10;#&#9;linux/docker-compose/index.html&#10;#&#9;linux/feed.xml&#10;#&#9;linux/hugo/index.html&#10;#&#9;linux/index.html&#10;#&#9;linux/iptables/index.html&#10;#&#9;linux/linuxmit/index.html&#10;#&#9;linux/saltstack/index.html&#10;#&#9;linux/yum/index.html&#10;#&#9;network/index.html&#10;#&#9;network/route/index.html&#10;#&#9;public/404.html&#10;#&#9;public/categories/index.html&#10;#&#9;public/categories/思考感悟/index.html&#10;#&#9;public/categories/技术文章/index.html&#10;#&#9;public/index.html&#10;#&#9;public/post/hello-hugo/index.html&#10;#&#9;public/post/index.html&#10;#&#9;public/tags/bar/index.html&#10;#&#9;public/tags/foo/index.html&#10;#&#9;public/tags/index.html&#10;#&#9;public/tags/test/index.html&#10;#&#9;sitemap.xml&#10;#&#9;tags/book/feed.xml&#10;#&#9;tags/book/index.html&#10;#&#9;tags/db/feed.xml&#10;#&#9;tags/db/index.html&#10;#&#9;tags/docker/feed.xml&#10;#&#9;tags/docker/index.html&#10;#&#9;tags/feed.xml&#10;#&#9;tags/index.html&#10;#&#9;tags/linux/feed.xml&#10;#&#9;tags/linux/index.html" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/note/redis_set_young.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/book/激荡十年水大鱼大.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-122">
-            <caret line="11" column="4" selection-start-line="11" selection-end-line="11" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exampleSite/config.toml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/123.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1305" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/archetypes/default.md" />
-    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/404.html" />
-    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/index.html" />
-    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/partials/sidebar.html" />
-    <entry file="file://$PROJECT_DIR$/public/linux/docker-compose/index.html" />
-    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/partials/article_header.html" />
-    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/layouts/partials/article.html" />
-    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/README.md" />
     <entry file="file://$PROJECT_DIR$/content/book/人类简史.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -499,16 +800,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/db/oracle-rac+dg.md" />
-    <entry file="file://$PROJECT_DIR$/content/linux/openwrt.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/doc/k8s.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -518,16 +809,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/db/mysql_index.md" />
-    <entry file="file://$PROJECT_DIR$/content/linux/jenkins.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/db/redis.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -598,99 +879,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/linux/iptables.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/linux/k8s.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/linux/nginx.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/linux/saltstack.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="390">
-            <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/linux/shadowsocks.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/linux/ssh.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/linux/tomcat.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/linux/yum.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/linux/服务器基线配置.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="285">
             <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/linux/ldap.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
           </first_editor>
           <second_editor />
         </state>
@@ -765,13 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/REDEME">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -800,16 +986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/doc/talust-jenkins.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="361">
-            <caret line="19" column="103" selection-start-line="19" selection-start-column="103" selection-end-line="19" selection-end-column="103" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/network/route.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -825,6 +1001,182 @@
             <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/images/tn.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/images/screenshot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/static/img/pacman.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/static/img/pacman0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/static/img/author.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/static/img/author0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/static/img/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-pacman-theme/static/img/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/123.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/linux/ldap.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="399">
+            <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/doc/talust-jenkins.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="4978">
+            <caret line="262" column="3" selection-start-line="14" selection-end-line="262" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/mongodb/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/linux/iptables.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/linux/jenkins.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="4959">
+            <caret line="261" column="9" selection-start-line="261" selection-start-column="9" selection-end-line="261" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/linux/k8s.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/linux/nginx.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/linux/openwrt.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="380">
+            <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/linux/saltstack.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="494">
+            <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/linux/shadowsocks.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="304">
+            <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/linux/ssh.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="475">
+            <caret line="25" selection-start-line="25" selection-end-line="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/linux/tomcat.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="437">
+            <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/linux/yum.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="684">
+            <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/doc/Talust-prod.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="357">
+            <caret line="533" column="4" selection-start-line="533" selection-start-column="4" selection-end-line="533" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REDEME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>

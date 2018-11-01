@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mongodb on younglinuxer</title>
+    <link>https://blog.youngblog.cc/tags/mongodb/</link>
+    <description>Recent content in Mongodb on younglinuxer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 04 Aug 2018 23:13:26 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.youngblog.cc/tags/mongodb/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mongodb</title>
+      <link>https://blog.youngblog.cc/db/mongodb/</link>
+      <pubDate>Sat, 04 Aug 2018 23:13:26 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/mongodb/</guid>
+      <description>mongodb docker 运行mongodb 常用命令</description>
+    </item>
+    
+  </channel>
+</rss>

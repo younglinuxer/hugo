@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>younglinuxer</title>
+    <link>https://blog.youngblog.cc/feed.xml</link>
+    <description>Recent content on younglinuxer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 05 Aug 2018 01:02:52 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.youngblog.cc/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>抓包改包</title>
+      <link>https://blog.youngblog.cc/hacker/%E6%8A%93%E5%8C%85%E6%94%B9%E5%8C%85/</link>
+      <pubDate>Sun, 05 Aug 2018 01:02:52 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/hacker/%E6%8A%93%E5%8C%85%E6%94%B9%E5%8C%85/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Msf</title>
+      <link>https://blog.youngblog.cc/hacker/msf/</link>
+      <pubDate>Sun, 05 Aug 2018 01:02:29 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/hacker/msf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sqlmap</title>
+      <link>https://blog.youngblog.cc/hacker/sqlmap/</link>
+      <pubDate>Sun, 05 Aug 2018 01:02:24 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/hacker/sqlmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql3</title>
+      <link>https://blog.youngblog.cc/db/mysql3/</link>
+      <pubDate>Sun, 05 Aug 2018 00:34:12 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/mysql3/</guid>
+      <description>mysql第三部分 索引 变量设定 事务 存储过程 触发器 sql分析 内存优化</description>
+    </item>
+    
+    <item>
+      <title>Mysql2</title>
+      <link>https://blog.youngblog.cc/db/mysql2/</link>
+      <pubDate>Sun, 05 Aug 2018 00:17:30 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/mysql2/</guid>
+      <description>mysql第二部分 增删改查 用户与权限管理 连表查询 常用内置函数 mysql 5.6 5.7 8.0</description>
+    </item>
+    
+    <item>
+      <title>亿级流量网站架构核心技术</title>
+      <link>https://blog.youngblog.cc/book/%E4%BA%BF%E7%BA%A7%E6%B5%81%E9%87%8F%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Sat, 04 Aug 2018 23:33:44 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/book/%E4%BA%BF%E7%BA%A7%E6%B5%81%E9%87%8F%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://blog.youngblog.cc/code/golang/</link>
+      <pubDate>Sat, 04 Aug 2018 23:21:52 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/code/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orm</title>
+      <link>https://blog.youngblog.cc/code/orm/</link>
+      <pubDate>Sat, 04 Aug 2018 23:21:46 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/code/orm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flask</title>
+      <link>https://blog.youngblog.cc/code/flask/</link>
+      <pubDate>Sat, 04 Aug 2018 23:21:03 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/code/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://blog.youngblog.cc/linux/docker/</link>
+      <pubDate>Sat, 04 Aug 2018 23:19:45 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/docker/</guid>
+      <description>docker 常用命令 优化 国内加速 Dockerfile 编写规范 常用命令 ##### harbor 仓库搭建</description>
+    </item>
+    
+    <item>
+      <title>Jenkins</title>
+      <link>https://blog.youngblog.cc/linux/jenkins/</link>
+      <pubDate>Sat, 04 Aug 2018 23:19:23 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/jenkins/</guid>
+      <description>jenkins 小结 安装 常用模块 自动触发构建 常用编译工具 自动上线 邮件通知 小结</description>
+    </item>
+    
+    <item>
+      <title>服务器基线配置</title>
+      <link>https://blog.youngblog.cc/linux/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%BA%E7%BA%BF%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Sat, 04 Aug 2018 23:19:12 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%BA%E7%BA%BF%E9%85%8D%E7%BD%AE/</guid>
+      <description>服务器基线配置 权限认证 登录失败处理 访问限制 应用权限 日志审计 文件完整性检查</description>
+    </item>
+    
+    <item>
+      <title>CFCA 认证小结</title>
+      <link>https://blog.youngblog.cc/linux/cfca-%E8%AE%A4%E8%AF%81%E5%B0%8F%E7%BB%93/</link>
+      <pubDate>Sat, 04 Aug 2018 23:18:31 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/cfca-%E8%AE%A4%E8%AF%81%E5%B0%8F%E7%BB%93/</guid>
+      <description>中国金融认证 认证小结 服务器类 网络类 审计类 其他类</description>
+    </item>
+    
+    <item>
+      <title>Ldap</title>
+      <link>https://blog.youngblog.cc/linux/ldap/</link>
+      <pubDate>Sat, 04 Aug 2018 23:16:54 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/ldap/</guid>
+      <description>ldap 安装 应用配置 redius usvn ssh ocserv other 查询命令 自定义应用查询配置</description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>https://blog.youngblog.cc/linux/ssh/</link>
+      <pubDate>Sat, 04 Aug 2018 23:16:49 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/ssh/</guid>
+      <description>ssh 配置 常用配置更改 使用key登录 使用外部认证ldap 免密登录 ssh 升级</description>
+    </item>
+    
+    <item>
+      <title>Tomcat</title>
+      <link>https://blog.youngblog.cc/linux/tomcat/</link>
+      <pubDate>Sat, 04 Aug 2018 23:16:26 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/tomcat/</guid>
+      <description>tomcat配置 常用配置 jvm 限制 连接数限制 端口更改 语言更改 日志重定向 多实例 systemctl+tomcat tomcat + redis + seesion</description>
+    </item>
+    
+    <item>
+      <title>Openwrt</title>
+      <link>https://blog.youngblog.cc/linux/openwrt/</link>
+      <pubDate>Sat, 04 Aug 2018 23:16:07 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/openwrt/</guid>
+      <description>ldap 活动目录 安装 应用认证 usvn ssh radius 查询语法 自定义查询</description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>https://blog.youngblog.cc/linux/nginx/</link>
+      <pubDate>Sat, 04 Aug 2018 23:15:40 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shadowsocks</title>
+      <link>https://blog.youngblog.cc/linux/shadowsocks/</link>
+      <pubDate>Sat, 04 Aug 2018 23:15:16 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/shadowsocks/</guid>
+      <description>shadowsocks 代理 安装 （go版本） kcp 加速 docker 版本 linux mint 下使用pac</description>
+    </item>
+    
+    <item>
+      <title>K8s</title>
+      <link>https://blog.youngblog.cc/linux/k8s/</link>
+      <pubDate>Sat, 04 Aug 2018 23:15:09 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/k8s/</guid>
+      <description>k8s 小结</description>
+    </item>
+    
+    <item>
+      <title>Postgresql</title>
+      <link>https://blog.youngblog.cc/db/postgresql/</link>
+      <pubDate>Sat, 04 Aug 2018 23:15:00 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oracle</title>
+      <link>https://blog.youngblog.cc/db/oracle/</link>
+      <pubDate>Sat, 04 Aug 2018 23:14:12 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/oracle/</guid>
+      <description>oracle rac 集群安装 dg 同步</description>
+    </item>
+    
+    <item>
+      <title>Mysql(1)</title>
+      <link>https://blog.youngblog.cc/db/mysql1/</link>
+      <pubDate>Sat, 04 Aug 2018 23:14:05 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/mysql1/</guid>
+      <description>mysql 常用 安装 参数优化 数据目录设置 磁盘选择+文件系统选择 日志优化 字符集设置 备份与恢复 物理备份 逻辑备份 数据迁移验证</description>
+    </item>
+    
+    <item>
+      <title>Mongodb</title>
+      <link>https://blog.youngblog.cc/db/mongodb/</link>
+      <pubDate>Sat, 04 Aug 2018 23:13:26 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/mongodb/</guid>
+      <description>mongodb docker 运行mongodb 常用命令</description>
+    </item>
+    
+    <item>
+      <title>Saltstack</title>
+      <link>https://blog.youngblog.cc/linux/saltstack/</link>
+      <pubDate>Thu, 02 Aug 2018 09:52:59 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/saltstack/</guid>
+      <description>saltstack 安装 master端: &#39;yum install salt-master salt-minion&#39; minion端: &#39;yum install salt-minion&#39; 常用模块 文件分发 应用管理 权限与用户 iptables+hosts+ salt-api使用 对比</description>
+    </item>
+    
+    <item>
+      <title>人类简史</title>
+      <link>https://blog.youngblog.cc/book/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2/</link>
+      <pubDate>Thu, 02 Aug 2018 09:39:52 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/book/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2/</guid>
+      <description>人类简史 简介 《人类简史 从动物到上帝》是以色列新锐历史学家的一部重磅作品。从十万年前有生命迹象开始到21世纪资本、科技交织的人类发展史。十万年</description>
+    </item>
+    
+    <item>
+      <title>激荡十年水大鱼大</title>
+      <link>https://blog.youngblog.cc/book/%E6%BF%80%E8%8D%A1%E5%8D%81%E5%B9%B4%E6%B0%B4%E5%A4%A7%E9%B1%BC%E5%A4%A7/</link>
+      <pubDate>Thu, 02 Aug 2018 09:38:20 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/book/%E6%BF%80%E8%8D%A1%E5%8D%81%E5%B9%B4%E6%B0%B4%E5%A4%A7%E9%B1%BC%E5%A4%A7/</guid>
+      <description>激荡十年 水大鱼大 简介 知名财经作者吴晓波新作，畅销十年、销量超过两百万册的《激荡三十年》续篇，至此完成改革开放四十年企业史完整记录。 作为时代记</description>
+    </item>
+    
+    <item>
+      <title>Redis</title>
+      <link>https://blog.youngblog.cc/db/redis/</link>
+      <pubDate>Mon, 30 Jul 2018 16:26:13 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/redis/</guid>
+      <description>redis 安装及配置 # centos 下安装 redis yum install redis -y #基础配置 #允许后台启动 daemonize yes # 默认daemonize no #配置监听 bind ｛ip,or 0.0.0.0｝ # 默认bind</description>
+    </item>
+    
+    <item>
+      <title>Rabbitmq</title>
+      <link>https://blog.youngblog.cc/db/rabbitmq/</link>
+      <pubDate>Sun, 29 Jul 2018 11:18:25 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/rabbitmq/</guid>
+      <description>rabbitmq 单机安装 有 EPEL 源的情况（需要安装的内容较多，宽带要能跟上）： sudo yum install erlang RabbitMQ 官网提供 Erlang 安装包： 下载地址：http://www.rabbitmq.c</description>
+    </item>
+    
+    <item>
+      <title>Yum</title>
+      <link>https://blog.youngblog.cc/linux/yum/</link>
+      <pubDate>Mon, 16 Jul 2018 22:22:25 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/yum/</guid>
+      <description>yum 安装软件的一些技巧 添加源 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo 查询软件版本 yum list docker-ce --showduplicates | sort -r yum install docker-ce-&amp;lt;VERSION STRING&amp;gt; #安装指定版本 安装开发软件组 yum -y group install &amp;quot;Development Tools&amp;quot; provides #查找包含文件的软件包 如报错缺少</description>
+    </item>
+    
+    <item>
+      <title>Iptables</title>
+      <link>https://blog.youngblog.cc/linux/iptables/</link>
+      <pubDate>Mon, 16 Jul 2018 21:16:29 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/iptables/</guid>
+      <description>iptables-examples firewall的常用用法 #####firewalld 配置文件 /etc/firewalld/zones/public.xml 默认的zone 其他的配置文件 rpm -qc firewalld firewall --list-all #查看规则 firewall-cmd --permanent --direct --add-rule ipv4 filter INPUT 1 -s 192.168.1.0/24 -p tcp --dport=22 -j ACCEPT #允许192.168.</description>
+    </item>
+    
+    <item>
+      <title>Docker Compose</title>
+      <link>https://blog.youngblog.cc/linux/docker-compose/</link>
+      <pubDate>Fri, 15 Jun 2018 10:03:33 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/docker-compose/</guid>
+      <description>docker-compose 说明 介绍 python 编写的docker编排工具 相较于k8s Swarm 等轻量的多 只需要按照自己的需求编写成对应的docker-compose 文件就行了 一般按照</description>
+    </item>
+    
+    <item>
+      <title>Nmap</title>
+      <link>https://blog.youngblog.cc/hacker/nmap/</link>
+      <pubDate>Tue, 12 Jun 2018 17:19:08 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/hacker/nmap/</guid>
+      <description>nmap 用例 常用语法 指定范围 查询对端版本 ips绕过 udp查询 高级用法 指定脚本 nc 长连接监听 ＇ nc -l 80 -k</description>
+    </item>
+    
+    <item>
+      <title> hugo 安装小结</title>
+      <link>https://blog.youngblog.cc/linux/hugo/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/hugo/</guid>
+      <description>hugo 博客搭建说明 准备工作 1.配置hugo 运行环境 2.github 新建一个Repositories 配置github pages （提供一个域名 并托管blog代码） 3.注册</description>
+    </item>
+    
+    <item>
+      <title>k8s 配置</title>
+      <link>https://blog.youngblog.cc/doc/k8s/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/doc/k8s/</guid>
+      <description>k8s 规范</description>
+    </item>
+    
+    <item>
+      <title>linux Mint </title>
+      <link>https://blog.youngblog.cc/linux/linuxmit/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/linux/linuxmit/</guid>
+      <description>linux Mint 安装优化记录 描述 最近为了戒掉游戏 决定放弃windows的坑 入了linux的坑 对比了几个不同的发行版本 最后决定使用 linux Mint 记录一下系统的安装和</description>
+    </item>
+    
+    <item>
+      <title>rout</title>
+      <link>https://blog.youngblog.cc/post/route/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/post/route/</guid>
+      <description>路由器配置</description>
+    </item>
+    
+    <item>
+      <title>关于 blog</title>
+      <link>https://blog.youngblog.cc/about/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/about/</guid>
+      <description>个人博客 运维 生活 工作 爱情 博客说明 1.记录工作中遇到的部分问题 2.一部分学习笔记{linux,数据库,网络,虚拟化,渗透测试,开发,mindo</description>
+    </item>
+    
+    <item>
+      <title>路由器</title>
+      <link>https://blog.youngblog.cc/network/route/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/network/route/</guid>
+      <description>路由器</description>
+    </item>
+    
+  </channel>
+</rss>

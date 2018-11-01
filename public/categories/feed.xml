@@ -1,30 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Hugo PacMan Theme Demo</title>
-    <link>http://coderzh.github.io/hugo-pacman-theme/categories/</link>
-    <description>Recent content in Categories on Hugo PacMan Theme Demo</description>
+    <title>Categories on younglinuxer</title>
+    <link>https://blog.youngblog.cc/categories/</link>
+    <description>Recent content in Categories on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     
-	<atom:link href="http://coderzh.github.io/hugo-pacman-theme/categories/feed.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.youngblog.cc/categories/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>思考感悟</title>
-      <link>http://coderzh.github.io/hugo-pacman-theme/categories/%E6%80%9D%E8%80%83%E6%84%9F%E6%82%9F/</link>
-      <pubDate>Sat, 20 Feb 2016 15:34:05 +0800</pubDate>
+      <title>Db</title>
+      <link>https://blog.youngblog.cc/categories/db/</link>
+      <pubDate>Sun, 05 Aug 2018 00:34:12 +0800</pubDate>
       
-      <guid>http://coderzh.github.io/hugo-pacman-theme/categories/%E6%80%9D%E8%80%83%E6%84%9F%E6%82%9F/</guid>
+      <guid>https://blog.youngblog.cc/categories/db/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>技术文章</title>
-      <link>http://coderzh.github.io/hugo-pacman-theme/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/</link>
-      <pubDate>Sun, 20 Mar 2016 12:13:19 +0800</pubDate>
+      <title>Doc</title>
+      <link>https://blog.youngblog.cc/categories/doc/</link>
+      <pubDate>Sat, 11 Aug 2018 17:31:52 +0800</pubDate>
       
-      <guid>http://coderzh.github.io/hugo-pacman-theme/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/</guid>
+      <guid>https://blog.youngblog.cc/categories/doc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://blog.youngblog.cc/categories/linux/</link>
+      <pubDate>Sun, 05 Aug 2018 10:10:01 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>https://blog.youngblog.cc/categories/network/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/categories/network/</guid>
       <description></description>
     </item>
     

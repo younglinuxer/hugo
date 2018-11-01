@@ -16,7 +16,6 @@ git push -u origin master
 强制推送　覆盖
 git push -u origin ＋master
 
-
 ################hugo 操作
 
 添加一个页面
@@ -31,3 +30,5 @@ hugo --theme=min_night --baseUrl="https://younglinuxer.github.io/hugo/"
 hugo --theme=hugo-pacman-theme --baseUrl="https://blog.youngblog.cc/"
 
 hugo server --theme=hugo-pacman-theme -D
+
+hugo server --theme=hugo-pacman-theme --baseUrl="0.0.0.0" -D

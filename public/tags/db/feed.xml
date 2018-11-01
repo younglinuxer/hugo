@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Db on younglinuxer</title>
+    <link>https://blog.youngblog.cc/tags/db/</link>
+    <description>Recent content in Db on younglinuxer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 29 Jul 2018 11:18:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.youngblog.cc/tags/db/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rabbitmq</title>
+      <link>https://blog.youngblog.cc/db/rabbitmq/</link>
+      <pubDate>Sun, 29 Jul 2018 11:18:25 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/db/rabbitmq/</guid>
+      <description>rabbitmq 单机安装 有 EPEL 源的情况（需要安装的内容较多，宽带要能跟上）： sudo yum install erlang RabbitMQ 官网提供 Erlang 安装包： 下载地址：http://www.rabbitmq.c</description>
+    </item>
+    
+  </channel>
+</rss>

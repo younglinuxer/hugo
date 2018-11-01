@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on younglinuxer</title>
+    <link>https://blog.youngblog.cc/categories/</link>
+    <description>Recent content in Categories on younglinuxer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://blog.youngblog.cc/categories/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Db</title>
+      <link>https://blog.youngblog.cc/categories/db/</link>
+      <pubDate>Sun, 05 Aug 2018 00:34:12 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/categories/db/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Doc</title>
+      <link>https://blog.youngblog.cc/categories/doc/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/categories/doc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://blog.youngblog.cc/categories/linux/</link>
+      <pubDate>Sun, 05 Aug 2018 01:02:52 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>https://blog.youngblog.cc/categories/network/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/categories/network/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

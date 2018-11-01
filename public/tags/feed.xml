@@ -1,40 +1,112 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hugo PacMan Theme Demo</title>
-    <link>http://coderzh.github.io/hugo-pacman-theme/tags/</link>
-    <description>Recent content in Tags on Hugo PacMan Theme Demo</description>
+    <title>Tags on younglinuxer</title>
+    <link>https://blog.youngblog.cc/tags/</link>
+    <description>Recent content in Tags on younglinuxer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 20 Mar 2016 12:13:19 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 04 Aug 2018 23:33:44 +0800</lastBuildDate>
     
-	<atom:link href="http://coderzh.github.io/hugo-pacman-theme/tags/feed.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.youngblog.cc/tags/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bar</title>
-      <link>http://coderzh.github.io/hugo-pacman-theme/tags/bar/</link>
-      <pubDate>Sun, 20 Mar 2016 12:13:19 +0800</pubDate>
+      <title>Book</title>
+      <link>https://blog.youngblog.cc/tags/book/</link>
+      <pubDate>Sat, 04 Aug 2018 23:33:44 +0800</pubDate>
       
-      <guid>http://coderzh.github.io/hugo-pacman-theme/tags/bar/</guid>
+      <guid>https://blog.youngblog.cc/tags/book/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Foo</title>
-      <link>http://coderzh.github.io/hugo-pacman-theme/tags/foo/</link>
-      <pubDate>Sun, 20 Mar 2016 12:13:19 +0800</pubDate>
+      <title>Db</title>
+      <link>https://blog.youngblog.cc/tags/db/</link>
+      <pubDate>Sun, 29 Jul 2018 11:18:25 +0800</pubDate>
       
-      <guid>http://coderzh.github.io/hugo-pacman-theme/tags/foo/</guid>
+      <guid>https://blog.youngblog.cc/tags/db/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Test</title>
-      <link>http://coderzh.github.io/hugo-pacman-theme/tags/test/</link>
-      <pubDate>Sat, 20 Feb 2016 15:34:05 +0800</pubDate>
+      <title>Docker</title>
+      <link>https://blog.youngblog.cc/tags/docker/</link>
+      <pubDate>Sat, 04 Aug 2018 23:19:45 +0800</pubDate>
       
-      <guid>http://coderzh.github.io/hugo-pacman-theme/tags/test/</guid>
+      <guid>https://blog.youngblog.cc/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hack</title>
+      <link>https://blog.youngblog.cc/tags/hack/</link>
+      <pubDate>Sun, 05 Aug 2018 01:02:52 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/tags/hack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jenkins</title>
+      <link>https://blog.youngblog.cc/tags/jenkins/</link>
+      <pubDate>Sat, 11 Aug 2018 17:31:52 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/tags/jenkins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://blog.youngblog.cc/tags/linux/</link>
+      <pubDate>Sun, 05 Aug 2018 10:10:01 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mongodb</title>
+      <link>https://blog.youngblog.cc/tags/mongodb/</link>
+      <pubDate>Sat, 04 Aug 2018 23:13:26 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://blog.youngblog.cc/tags/mysql/</link>
+      <pubDate>Sun, 05 Aug 2018 00:34:12 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>https://blog.youngblog.cc/tags/network/</link>
+      <pubDate>Tue, 05 Jun 2018 12:30:05 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oracle</title>
+      <link>https://blog.youngblog.cc/tags/oracle/</link>
+      <pubDate>Sat, 04 Aug 2018 23:14:12 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/tags/oracle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redis</title>
+      <link>https://blog.youngblog.cc/tags/redis/</link>
+      <pubDate>Mon, 30 Jul 2018 16:26:13 +0800</pubDate>
+      
+      <guid>https://blog.youngblog.cc/tags/redis/</guid>
       <description></description>
     </item>
     

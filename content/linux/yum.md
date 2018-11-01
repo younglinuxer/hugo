@@ -33,6 +33,9 @@ yum -y group install "Development Tools"
 ```bash
 #查找包含文件的软件包 如报错缺少文件　又不知道缺少啥软件的时候可以通过yum 搜索
 yum provides libneon.so 
+
+#查询命令属于哪个软件包 如查询nslookup 属于哪个软件包 
+yum provides */nslookup
 ```
 
 ##### 显示软件包的依赖信息
