@@ -9,3 +9,62 @@ comments = true
 author_homepage =  "https://younglinuxer.github.io/hugo/"
 
 +++
+
+### nginx 一些故障处理
+
+#### vue项目404
+
+#### 应用防火墙
+
+#### Google代理模块
+
+#### 4层转发 tcp udp
+
+#### 禁止未配置的域名访问+监控统计
+```json
+# cat /etc/nginx/conf.d/_default.conf
+# 配置http的未配置域名处理 
+server {
+        listen       80 default_server;
+        server_name  _;
+        access_log      off;
+        return 444;
+    }
+
+#配置https 未配置域名处理
+server {
+    listen 443 ssl default_server;
+    server_name _;
+
+    ssl_certificate /etc/nginx/certs/fullchain.pem;     
+    ssl_certificate_key /etc/nginx/certs/privkey.pem;
+    access_log      off;
+    return 444;
+    }
+
+# nginx 监控配置
+server {
+       listen          localhost:18081;
+       server_name     nginx_status.localhost;
+       location /nginx_status {
+               stub_status     on;
+               access_log      off;
+               allow           127.0.0.1;
+               deny            all;
+       }
+}
+
+```
+
+#### 免费生产泛域名ssl证书
+```bash
+#免费生产ssl 泛域名解析网址 https://certbot.eff.org/  #安装按照网址提示操作
+
+#如生产ssl报错 可尝试加入如下参数
+certbot -d *.youngblog.cc --installer nginx --manual --preferred-challenges dns certonly
+
+# 按照提示 添加dns解析 等待DNS 生效后 通过验证
+
+nslookup -q=txt {your_domain} 查询txt 记录类型的值
+
+```
