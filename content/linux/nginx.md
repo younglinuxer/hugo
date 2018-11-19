@@ -13,12 +13,37 @@ author_homepage =  "https://younglinuxer.github.io/hugo/"
 ### nginx 一些故障处理
 
 #### vue项目404
+```bash
+#在server配置下添加 
+try_files $uri $uri/ /index.html;
+#官方说明
+https://router.vuejs.org/guide/essentials/history-mode.html#example-server-configurations
+```
 
 #### 应用防火墙
 
 #### Google代理模块
 
 #### 4层转发 tcp udp
+```bash
+#设置stream 模块包含的配置文件 (注意stream 应该和http配置同层 stream属于4层)
+#详见 https://docs.nginx.com/nginx/admin-guide/load-balancer/tcp-udp-load-balancer/
+stream {
+    include /etc/nginx/stream.d/*.conf;
+
+    }
+
+server {
+        listen                65443;
+        proxy_pass            172.17.234.25:6443;
+       } 
+
+#设置udp
+server {
+        listen                53 udp; 
+        proxy_pass            xxxx udp;
+       } 
+```
 
 #### 禁止未配置的域名访问+监控统计
 ```json

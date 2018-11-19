@@ -55,7 +55,6 @@ yum update -y #更新软件
 yum makecache fast #更新索引加快搜索速度
 yum clean all  #清理缓存　删除　/var/cache/yum/
 ```
-t
 
 
 ##### 完全卸载yum包

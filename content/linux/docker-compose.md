@@ -154,3 +154,9 @@ volumes:
 networks:
   prometheus:
 ```
+
+##### 挂载nginx 目录
+
+##### 网络模式
+
+#####

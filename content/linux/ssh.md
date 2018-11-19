@@ -60,11 +60,11 @@ AuthorizedKeysFile	.ssh/authorized_keys
 #IgnoreRhosts yes
 
 # To disable tunneled clear text passwords, change to no here!
-#PermitEmptyPasswords no
+#PermitEmptyPasswords no #允许空密码登录
 
 # Change to no to disable s/key passwords
 #ChallengeResponseAuthentication yes
-ChallengeResponseAuthentication no
+ChallengeResponseAuthentication no #是否自动接收认证 ssh连接要输入 yes的那个东西
 
 # Kerberos options
 #KerberosAuthentication no
@@ -73,7 +73,7 @@ ChallengeResponseAuthentication no
 #KerberosGetAFSToken no
 #KerberosUseKuserok yes
 
-# GSSAPI options
+# GSSAPI options #应用程序接口选项
 GSSAPIAuthentication yes
 GSSAPICleanupCredentials no
 #GSSAPIStrictAcceptorCheck yes
@@ -88,12 +88,12 @@ GSSAPICleanupCredentials no
 # and ChallengeResponseAuthentication to 'no'.
 # WARNING: 'UsePAM no' is not supported in Red Hat Enterprise Linux and may cause several
 # problems.
-UsePAM yes
+UsePAM yes #允许key登录
 
 #AllowAgentForwarding yes
 #AllowTcpForwarding yes
 #GatewayPorts no
-X11Forwarding yes
+X11Forwarding yes #交互式处理 可以使用xshell 远程相关图形界面
 #X11DisplayOffset 10
 #X11UseLocalhost yes
 #PermitTTY yes
@@ -131,16 +131,58 @@ Subsystem	sftp	/usr/libexec/openssh/sftp-server
 #	AllowTcpForwarding no
 #	PermitTTY no
 #	ForceCommand cvs server
-UseDNS no
-AddressFamily inet
-PermitRootLogin yes
-SyslogFacility AUTHPRIV
-PasswordAuthentication yes
+UseDNS no #是否反向验证dns 一般设为no  yes回去查找一遍 影响连接速度
+AddressFamily inet #"any"(默认)、"inet"(仅IPv4)、"inet6"(仅IPv6)
+PermitRootLogin yes #是否允许root登录
+SyslogFacility AUTHPRIV #日志记录
+PasswordAuthentication yes #是否允许密码认证 可以用key登录
 
 ```
 
 ##### 常用配置更改
+```bash
+Port 65322 #端口更改
+UseDNS no #禁用dns反向验证
+AddressFamily inet #只允许ipv4登录
+PermitRootLogin no #不允许root登录
+SyslogFacility AUTHPRIV
+PasswordAuthentication no #不允许密码登录
+
+```
 ##### 使用key登录
+```bash
+1.生成公钥(使用xshell工具生成  或者使用命令 ssh-keygen(  -t rsa -b 2048 参数自己选填))
+2.新建用户
+useradd -g wheel ops #指定用户组 wheel 该用户组有sudo 权限 (详见 /etc/sudoers)
+3.配置用户的key
+mkdir /home/ops/.ssh
+vim  /home/ops/.ssh/authorized_keys #这里填写你自己的公钥内容
+4.登录验证 
+xshell 登录用户ops 公钥选择你生成的公钥
+ssh   ssh -i younglinuxer -p65322 ops@{node_ip} #注意younglinuxer 为秘钥文件 权限为600 (chmod 600 younglinuxer)
+```
 ##### 使用外部认证ldap
 ##### 免密登录
+```bash
+ssh-keygen -t rsa -b 2048 回车 回车 回车
+ssh-copy-id $IP #$IP为你需要远程登录地址，按照提示输入yes 和root密码
+```
 ##### ssh 升级
+```bash
+#centos6 默认ssh版本比较低 一般处于漏洞考虑会升级ssh
+#自己编译会容易比较出错 记得先开启telnet 或者自己预留能连接上的工具  这里提供一个不错的git    https://gist.github.com/add912b9b4c3899ec26c488a91446a84.git
+#代码如下：
+
+#!/bin/bash
+# Copyright © 2016 Faishal Saiyed
+cd
+timestamp=$(date +%s)
+if [ ! -f openssh-7.3.zip ]; then wget https://github.com/faishal/openssh-portable/releases/download/cent.os.6.7.openssh.7.3p1/openssh-7.3.zip; fi;
+unzip -o openssh-7.3.zip -d openssh-7.3p1
+cd openssh-7.3p1/
+cp /etc/pam.d/sshd pam-ssh-conf-$timestamp
+rpm -U *.rpm
+yes | cp pam-ssh-conf-$timestamp /etc/pam.d/sshd
+/etc/init.d/sshd restart
+
+```
